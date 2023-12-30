@@ -2,36 +2,33 @@
 layout: default
 title: Home
 ---
+<div class="page">
+  
+  <header>
+    <h1 class="landing-title">Hello, world!</h1>
+  </header>
+  
+  <div class="text-center">
+    <p>
+      <i class="fa fa-code-fork fa-3x"></i>
+    </p>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+    <p>
+      If you can see this, it means you've successfully set up 
+      <a href="https://github.com/nicoelayda/celeste">Celeste</a> in Jekyll!
+    </p>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <p>
+      This is your landing page. It is the first page your users will see when 
+      they visit your website. Perhaps write a little bit about you or your 
+      website here.
+    </p>
 
-    {{ post.content }}
+    <p>
+      Feel free to dive right in and make your changes to the code!<br />
+      Or check out Celeste on <a href="https://github.com/nicoelayda/celeste">GitHub</a> 
+      to learn more.
+    </p>
   </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+  
 </div>
