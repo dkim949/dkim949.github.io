@@ -1,62 +1,40 @@
-# Built with Jekyll 3.6.0
+# # # # # # # #
+#   K i k o   #
+# # # # # # # #
 
-# Setup
-title:               Ed.
-tagline:             'a jekyll theme for minimal editions'
-description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'http://minicomp.github.io'
-baseurl:             '/ed'
+# Basic
+name:               "Kiko"
 
-# About/contact
-author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+# URL
+baseurl:            "/Kiko"
+#baseurl:            "" #For Root Domain
+permalink:          /:year/:month/:day/:title.html
 
-# Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme:
+# Markdown
+markdown:           rdiscount
 
-# Permalinks
-permalink: pretty
-permalink: /:title/
+# Navigation
+nav:
+  - name:           "About"
+    href:           "//gfjaru.github.io/Kiko/about"
+  - name:           "Download"
+    href:           "//github.com/gfjaru/Kiko/releases"
 
-# Set encoding to UTF-8
-encoding: utf-8
+# Sass
+sass:
+  style:            :compressed
 
-# Collections for texts
-collections:
-  texts:
-    output: true
-
-# Markdown specs
-markdown: kramdown
-
-kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  footnote_backlink: "&#x21a9;&#xfe0e;"
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# Exclusions from the final site
-exclude:
-  - optional
-  - vendor
-  - ed..gemspec
-  - Gemfile
-  - Gemfile.lock
-  - backstop_data
-  - backstop.json
-
-# Theme
-# (Used for local or custom-server deployments)
-# Uncomment the `theme` line if using the Ed. theme gem on your own computer or server.
-# See https://jekyllrb.com/docs/themes/
-# theme: "ed."
-
-# Remote Theme
-# (Used only for GitHub deployments)
-# See https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site
-remote_theme: minicomp/ed
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
