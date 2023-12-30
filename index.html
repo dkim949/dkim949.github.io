@@ -1,33 +1,34 @@
 ---
 layout: default
-title: Home
+title: "Ed."
 ---
+<div class="introduction">
+  <h1>hi.</h1>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-
-    {{ post.content }}
-  </article>
-  {% endfor %}
+<p>
+  Ed is a <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> theme designed for textual
+  editors based on <a href="http://go-dh.github.io/mincomp/">minimal computing principles</a>, and
+  focused on legibility, durability, ease and flexibility. Our underlying technology is easy to
+  learn and teach, and can produce beautifully rendered scholarly or reading editions of texts meant
+  to last. To start using Ed, please see <a href="{{ site.baseurl }}/documentation/">our
+  documentation</a> for installation instructions and more. To learn more about the ideas behind Ed
+  and a list of current features see our <a href="{{ site.baseurl }}/about/">about</a> section. To
+  see Ed in action, we've provided some sample minimal editions for you below.
+</p>
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+<hr>
+
+<div class="toc">
+  <h2>sample texts</h2>
+  <ul class="texts">
+  {% for item in site.texts %}
+
+    <li class="text-title">
+      <a href="{{ site.baseurl }}{{ item.url }}">
+        {{ item.title }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
 </div>

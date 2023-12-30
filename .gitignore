@@ -2,7 +2,6 @@
 _gh_pages
 _site
 .ruby-version
-.sass-cache
 .jekyll-cache
 
 # Numerous always-ignore extensions
@@ -15,7 +14,10 @@ _site
 *.swp
 *.zip
 *.vi
+*.gem
 *~
+
+# POSSIBLE ENVIRONMENTS
 
 # OS or Editor folders
 .DS_Store
@@ -41,3 +43,13 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+bower_components
+
+# Recommended in Ben Balter's Jekyll Style Guide
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+
+# BackstopJS Test Files and Reports
+backstop_data/bitmaps_test
+backstop_data/html_report
