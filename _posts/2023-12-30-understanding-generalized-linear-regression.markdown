@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Understanding Generalized Linear Regression with Python"
-date:   2023-12-30 21:03:36 +0530
-categories: Python Regression
+date:   2023-12-30
+categories: [Statistics, Regression]
+tags: [Python, Scikit-learn, Statsmodels]
 ---
 
 Linear regression is a powerful tool for modeling the relationship between variables, but what if your data doesn't meet the assumptions of traditional linear regression? This is where generalized linear regression comes in handy. In this blog post, we'll explore the basics of generalized linear regression and demonstrate how to implement it using Python.
