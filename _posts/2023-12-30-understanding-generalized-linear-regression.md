@@ -122,30 +122,26 @@ plt.show()
 Linear regression assumes that the response variable is continuous and normally distributed. However, when the response variable represents counts, Poisson regression is more appropriate.
 
 ## Linear Regression Issues with Count Data:
-
-	•	It can predict negative values, which are not possible for count data.
-	•	The residuals are often not normally distributed.
-	•	Variance of counts typically increases with the mean, violating the constant variance assumption of linear regression.
+- It can predict negative values, which are not possible for count data.
+- The residuals are often not normally distributed.
+- Variance of counts typically increases with the mean, violating the constant variance assumption of linear regression.
 
 ## Poisson Regression Advantages:
-
-	•	It models the log of the expected counts, ensuring non-negative predictions.
-	•	It naturally handles the variance-mean relationship of count data.
+- It models the log of the expected counts, ensuring non-negative predictions.
+- It naturally handles the variance-mean relationship of count data.
 
 ## Binomial vs. Linear Regression
 
 Linear regression is not suitable for binary outcome variables as it can predict values outside the [0, 1] range, which are not meaningful probabilities.
 
 ## Linear Regression Issues with Binary Data:
-
-	•	Predictions can fall outside the [0, 1] range.
-	•	The assumption of normally distributed residuals is violated.
-	•	It does not capture the probabilistic nature of binary outcomes.
+- Predictions can fall outside the [0, 1] range.
+- The assumption of normally distributed residuals is violated.
+- It does not capture the probabilistic nature of binary outcomes.
 
 ## Binomial Regression Advantages:
-
-	•	It models the log odds of the probability of the outcome, ensuring predictions are valid probabilities.
-	•	It captures the binary nature of the response variable effectively.
+- It models the log odds of the probability of the outcome, ensuring predictions are valid probabilities.
+- It captures the binary nature of the response variable effectively.
 
 # Conclusion
 
