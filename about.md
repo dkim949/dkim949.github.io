@@ -6,13 +6,6 @@ permalink: /about/
 
 ## Welcome to My Portfolio!
 I am a passionate Data Scientist with a strong background in predictive modeling and business analytics, eager to embrace new adventures and challenges. With over 5 years of experience, I have consistently delivered impactful solutions that drive decision-making and improve operational efficiency.
-
-
-![Exploring the Heights of Himalaya](./assets/images/himalaya.jpeg)
-
-<img src="./assets/images/himalaya.jpeg" alt="Exploring the Heights of Himalaya" style="width:50%; height:auto;">
-
-*A moment from my trek in the Himalayas, 2024.*
 <br>
 
 ## About Me
@@ -46,4 +39,10 @@ I am a passionate Data Scientist with a strong background in predictive modeling
 - **Email:** [donginkim88@gmail.com](mailto:donginkim88@gmail.com)
 - **LinkedIn:** [linkedin.com/in/donginkim88](https://www.linkedin.com/in/donginkim88)
 - **GitHub:** [github.com/dkim949](https://github.com/dkim949)
+
 <br>
+
+
+![Exploring the Heights of Himalaya](./assets/images/himalaya.jpeg)
+
+*A moment from my trek in the Himalayas, 2024.*
