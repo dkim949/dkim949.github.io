@@ -5,7 +5,7 @@ title: Home
 
 ## Welcome to My Portfolio
 
-I am a Data Scientist with a strong background in predictive modeling, business analytics, and machine learning. Here are some of my key projects:
+Here are some of my key projects:
 
 ### Key Projects
 1. **Delivery Time Estimation Model**
