@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 ## Welcome to My Portfolio!
-I am a passionate Data Scientist with a strong background in predictive modeling and business analytics, eager to embrace new adventures and challenges. With over 5 years of experience, I have consistently delivered impactful solutions that drive decision-making and improve operational efficiency.
+I am a passionate Data Scientist with a strong background in predictive modeling and business analytics, eager to embrace new adventures and challenges. With over 6 years of experience, I have consistently delivered impactful solutions that drive decision-making and improve operational efficiency.
 <br>
 
 ## About Me
