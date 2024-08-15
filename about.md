@@ -7,7 +7,10 @@ permalink: /about/
 ## Welcome to My Portfolio!
 I am a passionate Data Scientist with a strong background in predictive modeling and business analytics, eager to embrace new adventures and challenges. With over 5 years of experience, I have consistently delivered impactful solutions that drive decision-making and improve operational efficiency.
 
-<img src="./assets/images/himalaya.jpeg" alt="Exploring the Heights of Himalaya" style="width: 60%; height: auto;">
+
+![Exploring the Heights of Himalaya](./assets/images/himalaya.jpeg)
+
+<img src="./assets/images/himalaya.jpeg" alt="Exploring the Heights of Himalaya" style="width:50%; height:auto;">
 
 *A moment from my trek in the Himalayas, 2024.*
 <br>
