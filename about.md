@@ -44,5 +44,4 @@ I am a passionate Data Scientist with a strong background in predictive modeling
 
 
 ![Exploring the Heights of Himalaya](./assets/images/himalaya.jpeg)
-
 *A moment from my trek in the Himalayas, 2024.*
