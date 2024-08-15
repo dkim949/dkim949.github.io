@@ -4,14 +4,16 @@ title: About
 permalink: /about/
 ---
 
-[//]: # (<h1 id="posts-label"> {{ page.title }} </h1>)
-[//]: # (- - - )
+## Welcome to My Portfolio!
+I am a passionate Data Scientist with a strong background in predictive modeling and business analytics. With over 5 years of experience, I have consistently delivered impactful solutions that drive decision-making and improve operational efficiency.
+<br>
 
 ## About Me
 - Data Scientist with over 5 years of expertise in business analytics and predictive modeling
 - Based in Seoul, South Korea, consistently demonstrated proficiency by designing and implementing highly accurate online time estimation models for grocery shopping and food delivery services
 - Played a key role in enhancing decision-making processes through the strategic design and implementation of key performance indicators (KPIs) and the integration of data governance best practices
 <br>
+
 
 ## Skills
 **Programming Language:**
@@ -29,4 +31,10 @@ permalink: /about/
 **VCS:** 
 - ![Generic badge](https://img.shields.io/badge/-GIT-654FF0?style=for-the-badge&logo=Github&logoColor=white) 
 
+<br>
+
+## Contact
+- **Email:** [donginkim88@gmail.com](mailto:donginkim88@gmail.com)
+- **LinkedIn:** [linkedin.com/in/donginkim88](https://www.linkedin.com/in/donginkim88)
+- **GitHub:** [github.com/dkim949](https://github.com/dkim949)
 <br>
