@@ -7,9 +7,9 @@ Welcome to my personal GitHub Pages website! This repository contains the source
 This is my personal website where I showcase my portfolio, blog about data science, and share resources related to AI, machine learning, and software development. The website is built using Jekyll and hosted on GitHub Pages.
 
 ### Main Features:
+- **About Me**: A brief introduction to who I am and what I do.
 - **Portfolio**: A collection of my key projects with detailed descriptions and links to the code.
 - **Blog**: Articles and tutorials on data science, AI, and other technical topics.
-- **About Me**: A brief introduction to who I am and what I do.
 
 ## 📂 Project Structure
 
