@@ -39,6 +39,7 @@ I am a passionate Data Scientist with a strong background in predictive modeling
 - **Email:** [donginkim88@gmail.com](mailto:donginkim88@gmail.com)
 - **LinkedIn:** [linkedin.com/in/donginkim88](https://www.linkedin.com/in/donginkim88)
 - **GitHub:** [github.com/dkim949](https://github.com/dkim949)
+- **Medium:** [medium.com/@donginkim88](https://medium.com/@donginkim88)
 
 <br>
 
