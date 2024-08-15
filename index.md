@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 
-## Welcome to My Portfolio
+## Welcome to My Portfolio!
 
 I am a Data Scientist with a strong background in predictive modeling, business analytics, and machine learning. Here are some of my key projects:
 
