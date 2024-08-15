@@ -9,6 +9,8 @@ This project focused on developing a machine learning model designed to predict 
 
 ## Project Overview
 
+![Model Workflow](../assets/images/delivery-time-workflow.png)
+
 Objective: The primary objective was to create a robust prediction model that could accurately estimate the time required to deliver orders, taking into account various dynamic factors. This was crucial for improving both operational efficiency and customer experience.
 
 ## Key Features
@@ -43,6 +45,7 @@ Objective: The primary objective was to create a robust prediction model that co
 - The model was designed with scalability in mind, allowing it to be adapted and extended to other regions or delivery contexts with minimal adjustments. This flexibility was key in addressing the diverse needs of different markets.
 
 
-![Model Workflow](../assets/images/delivery-time-workflow.png)
+</br>
+
 
 [Back to Home](../index.md)
