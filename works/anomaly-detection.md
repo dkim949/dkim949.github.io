@@ -23,11 +23,6 @@ This project involved developing an integrated system to detect anomalies in tra
 - **Statistical Forecasting:** Analyzed data distribution over time to identify normal patterns and set thresholds for anomaly detection.
   - **Thresholds:** Utilized Interquartile Range (IQR) to calculate upper and lower bounds, smoothing these thresholds using a moving average.
   - **Scoring System:** Developed a scoring mechanism to assess the severity of deviations from expected patterns, with alerts categorized into levels (GREEN, YELLOW, ORANGE, RED).
-- **Custom Loss Function:** Addressed the long-tail distribution issue in transactional data by implementing a custom loss function, penalizing underestimations to minimize the impact of outliers.
-
-**Handling Unknown Information at Detection Time:**
-- **Indirect Feature Engineering:** Used historical statistical data to approximate unavailable real-time information, ensuring robust detection capabilities even with incomplete data.
-- **Inductive Bias Integration:** Leveraged Multi-Task Learning (MTL) models to incorporate indirect features into the main anomaly detection task, improving the model's overall performance.
 
 **Challenges in Business Metrics:**
 - **Beyond Traditional Metrics:** Traditional metrics like precision and recall were used alongside business-specific metrics to ensure the system's relevance and effectiveness in real-world scenarios.
