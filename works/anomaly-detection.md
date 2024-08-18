@@ -9,7 +9,7 @@ This project involved developing an integrated system to detect anomalies in tra
 
 ## Project Overview
 
-![System Workflow](../assets/images/anomaly-detection-workflow.png)
+<!-- ![System Workflow](../assets/images/anomaly-detection-workflow.png) -->
 
 **Objective:** Build a system that can detect system errors and anomalies in real-time, providing instant alerts based on the severity of the detected issue.
 
