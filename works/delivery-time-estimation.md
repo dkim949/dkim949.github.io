@@ -52,6 +52,4 @@ Objective: The primary objective was to create a robust prediction model that co
 **Scalability:**
 - The model was designed with scalability in mind, allowing it to be adapted and extended to other regions or delivery contexts with minimal adjustments. This flexibility was key in addressing the diverse needs of different markets.
 
-</br>
-
 [Back to Home](../index.md)
