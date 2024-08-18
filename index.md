@@ -12,8 +12,8 @@ I am a Data Scientist with a strong background in predictive modeling, business 
    - Developed a machine learning model to predict delivery times with 95% accuracy.
    - [View Project](./works/delivery-time-estimation.md)
 
-2. **Anomaly Detection in Order Traffic**
-   - A project to identify and detect anomalies or disruptions in service performance using anomaly detection techniques.
+2. **Anomaly Detection in Transactional Data**
+   - Developed an integrated system to detect anomalies in transactional data, improving system reliability and response times.
    - [View Project](./works/anomaly-detection.md)
 
 3. **Customer Lifetime Value Analysis & Segmentation**
@@ -24,6 +24,6 @@ I am a Data Scientist with a strong background in predictive modeling, business 
    - Developed a recommendation system to suggest comic books to mobile webtoon users based on their reading history and preferences.
    - [View Project](./works/comic-recommendation-system.md)
 
-5. **Creative Projects Using Generative AI**
+<!-- 5. **Creative Projects Using Generative AI**
    - Exploring creative applications of generative AI to solve complex problems and enhance services.
-   - [View Project](./works/generative-ai.md)
+   - [View Project](./works/generative-ai.md) -->
