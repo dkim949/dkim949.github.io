@@ -5,27 +5,27 @@ title: Comic Book Recommendation System for Mobile Webtoon Users
 
 # Comic Book Recommendation System for Mobile Webtoon Users
 
-This project involved developing a recommendation system tailored to mobile webtoon users. The system was designed to suggest relevant comic books based on the users' reading history, preferences, and engagement patterns.
+This project involved developing a recommendation system specifically for a newly launched mobile webtoon service. Given the novelty of the service, the system had to overcome significant challenges, particularly in providing accurate recommendations for new users with limited interaction data. To address these challenges, the LightFM library was leveraged to enhance the accuracy and relevance of the recommendations from the outset.
 
 ## Project Overview
-- **Objective**: To enhance user experience by providing personalized comic book recommendations, thereby increasing user engagement and retention on the platform.
+- **Objective**: To successfully launch a new service by providing personalized comic book recommendations that increase user engagement and retention, even in the early stages of user interaction.
 
 ## Key Features
 - **Recommendation Algorithm**:
-  - **Collaborative Filtering**: Implemented collaborative filtering techniques to recommend comic books based on similar users' reading habits.
-  - **Content-Based Filtering**: Developed a content-based filtering model that analyzed the genre, author, and style of previously read webtoons to suggest similar comic books.
-  - **Hybrid Approach**: Combined collaborative and content-based filtering to improve recommendation accuracy.
+  - **LightFM Hybrid Model**: Implemented using the LightFM library, which combines collaborative and content-based filtering. This hybrid approach was crucial in dealing with the cold start problem by using both user interaction data and comic book metadata.
+  - **Cold Start Solutions**: To address the cold start problem inherent in a new service, the system utilized popularity-based recommendations and initial user preference surveys. This strategy helped in delivering relevant recommendations to new users with minimal data.
 
 - **Data Sources**:
-  - **User Interaction Data**: Analyzed user interaction data such as reading history, favorites, and ratings.
-  - **Webtoon Metadata**: Leveraged metadata like genre, author, and publication date to enhance the recommendation system.
-  - **Real-Time Adaptation**: The system was capable of adapting to real-time changes in user behavior, refining recommendations as more data became available.
+  - **User Interaction Data**: Despite limited initial data, the system analyzed reading history, favorites, and ratings to start building user profiles and refine recommendations as more data became available.
+  - **Webtoon Metadata**: Incorporated detailed metadata like genre, author, and publication date to support the content-based filtering component, ensuring relevant suggestions from day one.
+  - **Real-Time Adaptation**: The system dynamically adapted to real-time user behavior, ensuring that recommendations remained accurate and relevant as the service gained more users and data.
 
 - **Challenges and Solutions**:
-  - **Cold Start Problem**: Addressed the cold start problem for new users by incorporating popularity-based recommendations and initial preference surveys.
-  - **Scalability**: Designed the system to handle a large user base with millions of data points, ensuring fast and reliable recommendations.
+  - **Cold Start Problem**: The recommendation system was designed to cope with the challenges of a new service, where user interaction data was initially limited. LightFM’s hybrid model played a crucial role in mitigating the cold start problem by effectively using both collaborative and content-based filtering techniques.
+  - **Scalability**: The system was built to scale as the user base grew, ensuring that recommendations remained responsive and relevant as more users and data were integrated into the platform.
 
 - **Impact**:
+  - **Successful Launch**: The recommendation system contributed to a successful launch by providing personalized recommendations that quickly engaged users, even with limited initial data.
   - **Increased User Engagement**: The personalized recommendations resulted in a significant increase in user engagement, with users spending more time on the platform.
   - **Improved User Retention**: The recommendation system contributed to higher user retention rates by keeping users engaged with content tailored to their preferences.
 
