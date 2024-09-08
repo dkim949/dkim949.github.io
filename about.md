@@ -9,7 +9,7 @@ I am a passionate Data Scientist with a strong background in predictive modeling
 <br>
 
 ## About Me
-- Data Scientist with over 5 years of expertise in business analytics and predictive modeling
+- Data Scientist with over 6 years of expertise in business analytics and predictive modeling
 - Based in Seoul, South Korea, consistently demonstrated proficiency by designing and implementing highly accurate online time estimation models for grocery shopping and food delivery services
 - Played a key role in enhancing decision-making processes through the strategic design and implementation of key performance indicators (KPIs) and the integration of data governance best practices
 <br>
@@ -19,8 +19,7 @@ I am a passionate Data Scientist with a strong background in predictive modeling
 
 ## Skills
 
-**[🚀 Launch Interactive Skills Dashboard 🚀](https://dkim-skills.streamlit.app)**
-
+**[🚀 **Launch Interactive Skills Dashboard** 🚀](https://dkim-skills.streamlit.app)**
 
 **Programming Language:**
 -  ![Generic badge](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Generic badge](https://img.shields.io/badge/r-276DC3?style=for-the-badge&logo=r&logoColor=white) ![Generic badge](https://img.shields.io/badge/scala-DC322F?style=for-the-badge&logo=scala&logoColor=white) ![Generic badge](https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=white) 
