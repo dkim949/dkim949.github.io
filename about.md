@@ -18,6 +18,11 @@ I am a passionate Data Scientist with a strong background in predictive modeling
 
 
 ## Skills
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+  <iframe src="https://dkim-skills.streamlit.app" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0; border: none; overflow: hidden;"></iframe>
+</div>
+
 **Programming Language:**
 -  ![Generic badge](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Generic badge](https://img.shields.io/badge/r-276DC3?style=for-the-badge&logo=r&logoColor=white) ![Generic badge](https://img.shields.io/badge/scala-DC322F?style=for-the-badge&logo=scala&logoColor=white) ![Generic badge](https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=white) 
   
