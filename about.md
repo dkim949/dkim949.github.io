@@ -21,7 +21,6 @@ I am a passionate Data Scientist with a strong background in predictive modeling
 
 **[🚀 Launch Interactive Skills Dashboard 🚀](https://dkim-skills.streamlit.app)**
 
-Dive into a visual exploration of my data science expertise!
 
 **Programming Language:**
 -  ![Generic badge](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Generic badge](https://img.shields.io/badge/r-276DC3?style=for-the-badge&logo=r&logoColor=white) ![Generic badge](https://img.shields.io/badge/scala-DC322F?style=for-the-badge&logo=scala&logoColor=white) ![Generic badge](https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=white) 
