@@ -5,7 +5,7 @@ title: Home
 
 # Welcome to My Data Science Portfolio
 
-As a passionate Data Scientist, I specialize in leveraging advanced analytics and machine learning to solve complex business problems. This portfolio showcases my expertise across various domains of data science, from predictive modeling to MLOps.
+As a passionate Data Scientist, I specialize in leveraging advanced analytics and machine learning to solve complex business problems. This portfolio showcases my expertise across various domains of data science. If you’re interested in a more detailed breakdown of my technical skills, feel free to explore the interactive dashboard I’ve created, which showcases the tools and technologies I work with.
 
 **[🚀 Explore My Interactive Skills Dashboard 🚀](https://dkim-skills.streamlit.app)**
 
