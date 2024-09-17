@@ -2,7 +2,7 @@ title: Dongin's Works
 author: Dongin Kim
 email: donginkim88@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Data Scientist with over 5 years of expertise in business analytics and predictive modeling. 
+  Data Scientist with over 6 years of expertise in business analytics and predictive modeling. 
 url: "https://dkim949.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
 show_excerpts: true # set to true to show excerpts on the homepage
@@ -13,7 +13,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Dong-in Kim
-  tagline: Data Scientist. Analyst. Modeler.
+  tagline: Data Scientist. Problem Solver. Storyteller.
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   navigation:
