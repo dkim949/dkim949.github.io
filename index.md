@@ -41,13 +41,10 @@ As a passionate Data Scientist, I specialize in leveraging advanced analytics an
 ## Featured Projects
 
 1. **[Delivery Time Estimation](./works/delivery-time-estimation.md)**
-   - Developed a machine learning model achieving 95% accuracy in predicting delivery times, enhancing operational efficiency.
+   - Led the development of an ETA model, enhancing prediction accuracy and operational efficiency across multiple delivery services
 
 2. **[Anomaly Detection in Transactional Data](./works/anomaly-detection.md)**
-   - Implemented an advanced system for real-time anomaly detection, significantly improving system reliability.
+   - Developed a system to detect critical anomalies, such as spikes in orders or cancellations, and triggered alerts via Slack based on predefined severity levels to mitigate service disruptions.
 
-3. **[Customer Lifetime Value Analysis & Segmentation](./works/customer-segmentation.md)**
-   - Conducted in-depth analysis to support data-driven marketing strategies and customer retention efforts.
-
-4. **[Comic Book Recommendation System](./works/comic-recommendation-system.md)**
+3. **[Comic Book Recommendation System](./works/comic-recommendation-system.md)**
    - Created a personalized recommendation engine for mobile webtoon users, increasing user engagement and satisfaction.
