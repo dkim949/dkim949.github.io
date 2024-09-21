@@ -10,6 +10,27 @@ This project focused on developing a machine learning model designed to predict 
 ## Project Overview
 
 <!-- ![Model Workflow](../assets/images/delivery-time-workflow.png) -->
+- **Duration**: 3 years
+- **Role**: Data Scientist (Primary Contributor)
+- **Team Size**: 7-8 members (including data engineers, data scientists, backend developers, and product managers)
+
+
+## Problem Statement
+
+In the fast-paced world of on-demand services, accurate delivery time estimation is crucial for customer satisfaction and operational efficiency. However, each of our services (e.g., food delivery, grocery delivery, package delivery) faced distinct challenges:
+
+1. **Diverse Operational Models**: Each service had its unique workflow, from order placement to final delivery.
+2. **Varying Data Availability**: The type and quality of available data differed significantly across services.
+3. **Dynamic External Factors**: Traffic conditions, weather, and other external variables affected each service differently.
+4. **Scalability Requirements**: Solutions needed to be scalable to accommodate business growth and expansion into new regions.
+
+Our task was to create a unified yet flexible system that could address these challenges while providing accurate, real-time delivery estimates for each service.
+
+
+
+
+
+<!-- 
 
 **Objective:** The primary objective was to create a robust prediction model that could accurately estimate the time required to deliver orders, taking into account various dynamic factors. This was crucial for improving both operational efficiency and customer experience.
 
@@ -50,6 +71,6 @@ This project focused on developing a machine learning model designed to predict 
 - **Customer Experience:** By providing more accurate delivery time estimates, the model contributed to a measurable increase in customer satisfaction and retention.
 
 **Scalability:**
-- The model was designed with scalability in mind, allowing it to be adapted and extended to other regions or delivery contexts with minimal adjustments. This flexibility was key in addressing the diverse needs of different markets.
+- The model was designed with scalability in mind, allowing it to be adapted and extended to other regions or delivery contexts with minimal adjustments. This flexibility was key in addressing the diverse needs of different markets. -->
 
 [Back to Home](../index.md)
