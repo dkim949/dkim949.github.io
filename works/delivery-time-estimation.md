@@ -90,6 +90,11 @@ The modeling approach was tailored to the specific conditions and requirements o
 
 4. **Custom Loss Functions**: Developed service-specific loss functions to address unique prediction requirements and business goals.
 
+5. **Metric Development**: Created and adjusted performance metrics to align with evolving business requirements.
+
+6. **Flexible Model Tuning**: Designed models to be easily adjustable based on changing business priorities, going beyond traditional accuracy metrics like RMSE and MAE.
+
+
 ## Model Monitoring and Maintenance
 
 Key aspects of the monitoring and maintenance phase included:
@@ -106,15 +111,8 @@ Key aspects of the monitoring and maintenance phase included:
 
 6. **A/B Testing**: Utilized existing A/B testing platforms to evaluate model improvements, with careful sample group selection based on service conditions.
 
-## Adapting to Business Goals
+7. **Stakeholder Communication**: Maintained regular dialogue with business teams to ensure model outputs remained aligned with current business goals.
 
-A crucial aspect of the project was maintaining flexibility in the face of changing business objectives:
-
-1. **Dynamic Metric Development**: Created and adjusted performance metrics to align with evolving business requirements.
-
-2. **Flexible Model Tuning**: Designed models to be easily adjustable based on changing business priorities, going beyond traditional accuracy metrics like RMSE and MAE.
-
-3. **Stakeholder Communication**: Maintained regular dialogue with business teams to ensure model outputs remained aligned with current business goals.
 
 ## Results and Impact
 
