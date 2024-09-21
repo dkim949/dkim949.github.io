@@ -3,9 +3,11 @@ layout: page
 title: Home
 ---
 
-# Welcome to My Data Science Portfolio
+# Dongin Kim's Data Science Portfolio
 
-As a passionate Data Scientist, I specialize in leveraging advanced analytics and machine learning to solve complex business problems. This portfolio highlights the skills I’ve developed over the years, along with an introduction to some of the key projects I’ve worked on. For a detailed look at my technical skills, check out the interactive dashboard showcasing the tools and technologies I use.
+Welcome to my project showcase. Here you'll find a collection of my key data science projects, demonstrating my expertise in solving complex business problems through advanced analytics and machine learning. These projects highlight the skills I've developed over the years and showcase my ability to deliver impactful solutions across various domains.
+
+For a comprehensive overview of my technical skills and the tools I use:
 
 **[🚀 Explore My Interactive Skills Dashboard 🚀](https://dkim-skills.streamlit.app)**
 
