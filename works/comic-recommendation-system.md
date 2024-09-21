@@ -9,8 +9,8 @@ This project focused on developing a recommendation system for a newly launched 
 
 ## Project Overview
 
-- **Duration**: [Project duration]
-- **Role**: [Your specific role and responsibilities]
+- **Duration**: 3+ months
+- **Role**: One of two data scientists sharing project responsibilities
 
 ## Problem Statement and Project Planning
 
