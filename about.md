@@ -13,7 +13,7 @@ I am a passionate Data Scientist skilled in full-cycle data science project—fr
 
 I specialize in machine learning and deep learning, using tools like TensorFlow, PyTorch, and scikit-learn to develop **predictive models**. My expertise extends to **data visualization**, with proficiency in Tableau and Seaborn, helping to turn complex data into actionable insights. Additionally, I have experience in time series analysis and natural language processing using techniques such as LSTM and Transformers.
 
-Recently, I completed a Proof of Concept (PoC) project with AWS, utilizing **Retrieval-Augmented Generation (RAG)** and **Large Language Models (LLMs)** to explore innovative AI applications in business scenarios. I am also deeply interested in **Explainable AI (XAI)** and have applied techniques such as **Explainable Boosting Machine (EBM)** and **counterfactual explanations** to enhance model transparency. Moving forward, I am focused on further exploring LLM applications and advancing my skills in XAI and advanced data visualization.
+Recently, I completed a Proof of Concept (PoC) project with AWS, utilizing **Retrieval-Augmented Generation (RAG)** and **Large Language Models (LLMs)** to explore innovative AI applications in business scenarios. I am also deeply interested in **Explainable AI (XAI)** and **Multi-modal AI**, having applied various interpretability techniques while exploring innovative applications that combine different data modalities.
 
 <br>
 
