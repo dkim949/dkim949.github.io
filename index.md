@@ -7,6 +7,32 @@ title: Home
 
 Welcome to my project showcase. Here you'll find a collection of my key data science projects, demonstrating my expertise in solving complex business problems through advanced analytics and machine learning. These projects highlight the skills I've developed over the years and showcase my ability to deliver impactful solutions across various domains.
 
+For a comprehensive overview of my technical skills and the tools I use:
+
+**[🚀 Explore My Interactive Skills Dashboard 🚀](https://dkim-skills.streamlit.app)**
+
+## Featured Projects
+
+1. **[Delivery Time Estimation](./works/delivery-time-estimation.md)**
+   - Led research and development of a large-scale ETA prediction system (2M+ daily deliveries), exploring various approaches from hybrid models (Neural Net + GBM ensembles) to advanced architectures (MTL, Wide & Deep), and implemented adaptive weather compensation through causal analysis
+   - Key technologies: Python, Deep Learning, Statistical Modeling, Causal Analysis, MLOps
+
+2. **[Anomaly Detection in Transactional Data](./works/anomaly-detection.md)**
+   - Designed and deployed a comprehensive monitoring system with automated feedback loops, enabling real-time detection of business anomalies and instant alerts to ensure continuous service reliability
+   - Key technologies: Python, Time Series Analysis, Stream Processing, Statistical Modeling, MLOps
+
+3. **[FoodieNet: AI-powered Food Allergy Detection](./works/foodienet.md)**
+   - Developed an end-to-end system that combines computer vision and LLMs to detect ingredients and provide comprehensive allergen information from food images, improving ingredient detection accuracy especially for allergenic substances
+   - Key technologies: CLIP, Vision Transformers, Large Language Models, MLOps
+
+4. **[AI-powered Cooking Time Estimation System](./works/cooking-time-estimation.md)**
+   - Built a RAG (Retrieval-Augmented Generation) based system leveraging domain knowledge and LLMs to predict cooking time, demonstrating novel applications of generative AI in food-tech domain
+   - Key technologies: RAG Architecture, LangChain, Vector Database, AWS Services   
+
+5. **[Scalable Webtoon Recommendation System](./works/webtoon-recommendation.md)**
+   - Architected and deployed a production-grade recommendation system processing 10M+ user interactions daily, combining collaborative filtering with content embeddings to deliver personalized recommendations in real-time
+   - Key technologies: Deep Learning, Collaborative Filtering, Content-based Models, MLOps
+
 ## Technical Proficiency
 
 ### Programming Languages
@@ -35,22 +61,3 @@ Welcome to my project showcase. Here you'll find a collection of my key data sci
 
 ### Version Control
 ![Git](https://img.shields.io/badge/-GIT-654FF0?style=for-the-badge&logo=Github&logoColor=white)
-
-For a comprehensive overview of my technical skills and the tools I use:
-
-**[🚀 Explore My Interactive Skills Dashboard 🚀](https://dkim-skills.streamlit.app)**
-
-
-## Featured Projects
-
-1. **[Delivery Time Estimation](./works/delivery-time-estimation.md)**
-   - Led the development of an ETA model, enhancing prediction accuracy and operational efficiency across multiple delivery services
-   - Key technologies: Ensemble methods, Deep Learning, Multi-task Learning
-
-2. **[Anomaly Detection in Transactional Data](./works/anomaly-detection.md)**
-   - Developed a system to detect critical anomalies, such as spikes in orders or cancellations, and triggered alerts via Slack based on predefined severity levels to mitigate service disruptions
-   - Key technologies: Time Series Analysis, Gradient Boosting Machines, Statistical Forecasting
-
-3. **[Comic Book Recommendation System](./works/comic-recommendation-system.md)**
-   - Created a personalized recommendation engine for mobile webtoon users, increasing user engagement and satisfaction.
-   - Key technologies: LightFM, Hybrid Recommendation System (collaborative and content-based filtering)
