@@ -28,4 +28,5 @@ Recently, I completed a Proof of Concept (PoC) project with AWS, utilizing **Ret
 
 
 ![Exploring the Heights of Himalaya](./assets/images/himalaya.jpeg)
+
 *A moment from my trek in the Himalayas, 2024.*
