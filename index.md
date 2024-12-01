@@ -26,8 +26,8 @@ For a comprehensive overview of my technical skills and the tools I use:
    - Key technologies: CLIP, Vision Transformers, Large Language Models, MLOps
 
 4. **[AI-powered Cooking Time Estimation System](./works/cooking-time-estimation.md)**
-   - Built a RAG (Retrieval-Augmented Generation) based system leveraging domain knowledge and LLMs to predict cooking time, demonstrating novel applications of generative AI in food-tech domain
-   - Key technologies: RAG Architecture, LangChain, Vector Database, AWS Services   
+   - Collaborated with AWS on a PoC project to develop a RAG-based cooking time prediction system, leveraging AWS Bedrock (Claude/Titan), Amazon Q, and OpenSearch Vector Engine to demonstrate enterprise-ready generative AI applications in food-tech
+   - Key technologies: RAG Architecture, AWS Bedrock, Amazon Q, OpenSearch, LangChain
 
 5. **[Scalable Webtoon Recommendation System](./works/webtoon-recommendation.md)**
    - Architected and deployed a production-grade recommendation system processing user interactions daily, combining collaborative filtering with content embeddings to deliver personalized recommendations in real-time
