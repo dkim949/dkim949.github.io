@@ -56,22 +56,36 @@ The modeling approach was tailored to the specific requirements of real-time ano
    - Utilized traditional time series models and tools like Facebook Prophet for exploratory data analysis.
    - Examined seasonal patterns, trends, and other temporal characteristics to inform feature engineering and model design.
 
-2. **Machine Learning Approaches**: Implemented tree-based models such as Gradient Boosting Machines (GBM).
-   - Designed features using lagged historical data to predict current transaction volumes in a supervised learning framework.
+2. **Multi-Level Threshold System**:
+   ![Anomaly Detection Thresholds](../assets/images/anomaly_detection1.png)
+   *Multi-level threshold system showing different severity levels (Green: Normal, Yellow: Warning, Orange: Alert, Red: Critical)*
+   
+   - Implemented a color-coded threshold system for different severity levels
+   - Developed dynamic thresholds that adapt to historical patterns
+   - Created buffer zones between threshold levels to prevent alert flooding
 
-3. **Statistical Forecasting**: Analyzed data distribution over time to identify normal patterns and set thresholds for anomaly detection.
+3. **Alert System Integration**:
+   ![Slack Alert System](../assets/images/anomaly_detection2.png)
+   *Real-time Slack notifications with severity levels and relevant metrics*
+   
+   - Designed an automated alert system integrated with Slack
+   - Included relevant context and metrics in alerts
+   - Color-coded messages based on severity level
+   - Provided direct links to monitoring dashboards
+
+4. **Statistical Forecasting**: Analyzed data distribution over time to identify normal patterns and set thresholds for anomaly detection.
    - Utilized Interquartile Range (IQR) to calculate upper and lower bounds
    - Implemented moving average smoothing for threshold stability
 
-4. **Grading System**: Developed a mechanism to categorize the severity of deviations from expected patterns.
+5. **Grading System**: Developed a mechanism to categorize the severity of deviations from expected patterns.
   
-5. **Model Optimization**: 
+6. **Model Optimization**: 
    - Experimented with various approaches to balance detection accuracy and real-time performance.
 
-6. **Custom Metrics**: 
+7. **Custom Metrics**: 
    - Developed business-specific metrics alongside traditional statistical measures.
 
-7. **Interpretability**: 
+8. **Interpretability**: 
    - Focused on creating models that facilitate quick understanding and action.
 
 ## System Implementation and Monitoring
