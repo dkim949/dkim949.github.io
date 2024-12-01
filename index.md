@@ -30,7 +30,7 @@ For a comprehensive overview of my technical skills and the tools I use:
    - Key technologies: RAG Architecture, LangChain, Vector Database, AWS Services   
 
 5. **[Scalable Webtoon Recommendation System](./works/webtoon-recommendation.md)**
-   - Architected and deployed a production-grade recommendation system processing 10M+ user interactions daily, combining collaborative filtering with content embeddings to deliver personalized recommendations in real-time
+   - Architected and deployed a production-grade recommendation system processing user interactions daily, combining collaborative filtering with content embeddings to deliver personalized recommendations in real-time
    - Key technologies: Deep Learning, Collaborative Filtering, Content-based Models, MLOps
 
 ## Technical Proficiency
