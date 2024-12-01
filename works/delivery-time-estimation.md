@@ -77,6 +77,14 @@ The modeling approach was tailored to the specific conditions and requirements o
    - Multi-task Learning approaches to leverage information across related prediction tasks
    - Hybrid models combining tree-based methods and neural networks
 
+   Below are two example architectures that were explored:
+
+   ![Multi-Task Learning Architecture](../assets/images/mtl.png)
+   *Multi-Task Learning Architecture: Leveraging shared representations across multiple delivery-related tasks*
+
+   ![Hybrid Model Architecture](../assets/images/hybrid_model.png)
+   *Hybrid Model Architecture: Combining gradient boosting models with deep neural networks for enhanced prediction accuracy*
+
 2. **New/Growing Services**: For newer or rapidly evolving services, I focused on more interpretable and adaptable modeling approaches.
    - Focused on simpler, more interpretable models for easier communication and reporting
    - Utilized Linear Regression with regularization
