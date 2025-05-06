@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Home
+layout: redirect
+redirect: /about/
 ---
 
 # Dongin Kim's Data Science Portfolio
