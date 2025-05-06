@@ -25,39 +25,46 @@ For a comprehensive overview of my technical skills and the tools I use:
    - Developed an end-to-end system that combines computer vision and LLMs to detect ingredients and provide comprehensive allergen information from food images, improving ingredient detection accuracy especially for allergenic substances
    - Key technologies: CLIP, Vision Transformers, Large Language Models, MLOps
 
-4. **[AI-powered Cooking Time Estimation System](./works/cooking-time-estimation.md)**
-   - Collaborated with AWS on a PoC project to develop a RAG-based cooking time prediction system, leveraging AWS Bedrock (Claude/Titan), Amazon Q, and OpenSearch Vector Engine to demonstrate enterprise-ready generative AI applications in food-tech
-   - Key technologies: RAG Architecture, AWS Bedrock, Amazon Q, OpenSearch, LangChain
-
-5. **[Scalable Webtoon Recommendation System](./works/webtoon-recommendation.md)**
-   - Architected and deployed a production-grade recommendation system processing user interactions daily, combining collaborative filtering with content embeddings to deliver personalized recommendations in real-time
-   - Key technologies: Deep Learning, Collaborative Filtering, Content-based Models, MLOps
-
 ## Technical Proficiency
 
 ### Programming Languages
 ![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/r-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![Scala](https://img.shields.io/badge/scala-DC322F?style=for-the-badge&logo=scala&logoColor=white)
-![Linux](https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=white)
 
-### Machine Learning & Deep Learning
+### ML & DL
 ![scikit-learn](https://img.shields.io/badge/-sklearn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![statsmodels](https://img.shields.io/badge/-statsmodels-FF6F00?style=for-the-badge&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/-Tensorflow-FF6F00?style=for-the-badge&logo=Tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/-keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![LightGBM](https://img.shields.io/badge/-LightGBM-00A0E9?style=for-the-badge&logo=lightgbm&logoColor=white)
+![CatBoost](https://img.shields.io/badge/-CatBoost-00A0E9?style=for-the-badge&logo=catboost&logoColor=white)
+![XGBoost](https://img.shields.io/badge/-XGBoost-00A0E9?style=for-the-badge&logo=xgboost&logoColor=white)
+![ONNX](https://img.shields.io/badge/-ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
 
-### Data Engineering & MLOps
+### MLOps & Model Serving
 ![MLflow](https://img.shields.io/badge/-mlflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![Kedro](https://img.shields.io/badge/-kedro-FFC900?style=for-the-badge&logo=kedro&logoColor=white)
+![BentoML](https://img.shields.io/badge/-BentoML-000000?style=for-the-badge&logo=bentoml&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
-
-### Databases & Big Data
-![MySQL](https://img.shields.io/badge/-Mysql-4479A1?style=for-the-badge&logo=MySQL&logoColor=white)
-![Trino](https://img.shields.io/badge/-trino-DD00A1?style=for-the-badge&logo=trino&logoColor=white)
-![Presto](https://img.shields.io/badge/-presto-5890FF?style=for-the-badge&logo=presto&logoColor=white)
-![Amazon Redshift](https://img.shields.io/badge/-redshift-8C4FFF?style=for-the-badge&logo=amazon-redshift&logoColor=white)
-![Google BigQuery](https://img.shields.io/badge/-bigquery-669DF6?style=for-the-badge&logo=google-bigquery&logoColor=white)
-
-### Version Control
 ![Git](https://img.shields.io/badge/-GIT-654FF0?style=for-the-badge&logo=Github&logoColor=white)
+
+### Data Infrastructure & Query Engines
+![Apache Spark](https://img.shields.io/badge/-Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
+![Redash](https://img.shields.io/badge/-Redash-FF0000?style=for-the-badge&logo=redash&logoColor=white)
+![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![MySQL](https://img.shields.io/badge/-Mysql-4479A1?style=for-the-badge&logo=MySQL&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Amazon Redshift](https://img.shields.io/badge/-redshift-8C4FFF?style=for-the-badge&logo=amazon-redshift&logoColor=white)
+![Trino](https://img.shields.io/badge/-trino-DD00A1?style=for-the-badge&logo=trino&logoColor=white)
+
+### Visualization Tools
+![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/-Seaborn-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![ggplot2](https://img.shields.io/badge/-ggplot2-276DC3?style=for-the-badge&logo=r&logoColor=white)
+
+### Cloud Platforms
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/-GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
