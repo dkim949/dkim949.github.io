@@ -14,13 +14,15 @@ For a comprehensive overview of my technical skills and the tools I use:
 
 ## Featured Projects
 
-1. **[Delivery Time Estimation](./works/delivery-time-estimation.md)**
-   - Led research and development of a large-scale ETA prediction system (2M+ daily deliveries), exploring various approaches from hybrid models (Neural Net + GBM ensembles) to advanced architectures (MTL, Wide & Deep), and implemented adaptive weather compensation through causal analysis
+1. **[Navigating Uncertainty: ETA Prediction at Scale](./works/delivery-time-estimation.md)**
+   - Built a large-scale ETA prediction system (2M+ daily deliveries) for food logistics, addressing high uncertainty from weather, traffic, and operational variability.
+   - Applied hybrid models (Neural Net + GBM), multi-task learning, and causal weather adjustment to improve robustness and accuracy.
    - Key technologies: Python, Deep Learning, Statistical Modeling, Causal Analysis, MLOps
 
-2. **[Anomaly Detection in Transactional Data](./works/anomaly-detection.md)**
-   - Designed and deployed a comprehensive monitoring system with automated feedback loops, enabling real-time detection of business anomalies and instant alerts to ensure continuous service reliability
-   - Key technologies: Python, Time Series Analysis, Stream Processing, Statistical Modeling, MLOps
+2. **[Forecasting & Monitoring: Anomaly Detection in Time Series](./works/anomaly-detection.md)**
+   - Developed a real-time anomaly detection system for transactional time series, combining forecasting models with statistical tests and stream-based alerts.
+   - Built end-to-end MLOps pipelines with automated retraining, validation, and deployment for continuous monitoring.
+   - Key technologies: Python, Time Series Forecasting, Stream Processing, Statistical Modeling, MLOps
 
 3. **[FoodieNet: AI-powered Food Allergy Detection](./works/foodienet.md)**
    - Developed an end-to-end system that combines computer vision and LLMs to detect ingredients and provide comprehensive allergen information from food images, improving ingredient detection accuracy especially for allergenic substances

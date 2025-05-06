@@ -1,31 +1,59 @@
 ---
 layout: page
-title: Delivery Time Estimation Model
+title: Building a Scalable ETA Prediction System
 ---
 
-# Delivery Time Estimation Model
+# Building a Scalable ETA Prediction System
 
-This project focused on developing machine learning models designed to predict delivery times across various services in a high-volume, time-sensitive environment. The goal was to improve operational efficiency and enhance customer satisfaction by providing more accurate delivery time estimates.
+> **Duration**: 3+ years  
+> **Role**: Lead model developer and key contributor across multiple verticals  
+> **Scope**: Designed and deployed multiple ML models across food, grocery, and retail services—each adapted to unique operational constraints and real-time conditions
 
-## Project Overview
+## *“How long will it take to arrive?”*
 
-- **Duration**: 3+ years
-- **Role**: In most projects, I independently handled both modeling and project management responsibilities. For larger team efforts, I served as a primary contributor, leading key aspects of the data science work.
+![Uncertainty in Food Delivery Prediction](../assets/images/uncertainty_in_delivery.png)
 
-## Problem Statement and Project Planning
+It sounds simple. But answering this question—reliably, in real time, for millions of daily deliveries—is a deeply complex challenge.
 
-In the fast-paced world of on-demand services, accurate delivery time estimation is crucial for customer satisfaction and operational efficiency. The task was to create a unified yet flexible system that could address the challenges of multiple services while providing accurate, real-time delivery estimates.
+Behind every estimate lies a network of unpredictable variables: weather, traffic, kitchen delays, rider availability, and dynamic business policies. Even with rich historical data, no two deliveries are exactly alike.
 
-Key aspects of the problem definition and planning phase included:
+This project aimed to build ETA systems that could operate under these real-world uncertainties—offering accurate, trustworthy predictions across multiple services and contexts.
+
+## Problem Definition
+
+Predicting delivery times is not just a regression task—it’s a real-world decision-making problem under uncertainty.
+
+In a high-throughput environment like food and retail delivery, our system must provide reliable time estimates *before* the key events (e.g. dispatch, pickup, and transit) have even occurred. This means we’re not just predicting one outcome, but reasoning about **many unknowns**.
+
+### Key challenges include:
+
+1. **Latent, dynamic variables**  
+   Many important factors—like which rider will accept the order, how long a kitchen will take to prepare food, or whether it will rain in 15 minutes—are unknown at prediction time.
+
+2. **Multi-stage dependency**  
+   Delivery time is not a single quantity—it’s the sum of several sequential and conditionally dependent durations:  
+   - Dispatch delay  
+   - Pickup time  
+   - Transit time  
+
+   Each segment has its own features, noise, and dominant uncertainty sources.
+
+   > $ETA = T_{dispatch} + T_{pickup} + T_{transit}$  
+
+   [Insert: Layered bar chart showing variance in each time component]
+
+3. **Long-tail and rare events**  
+![ Density plot comparing normal vs long-tailed delivery distributions](../assets/images/long_tail_distribution.png)
+
+   Most deliveries follow predictable patterns, but rare events (e.g., sudden storms, local protests, major road construction) introduce heavy tails into the distribution. These outliers can seriously impact the user experience if not properly modeled.
 
 
-1. **Stakeholder Collaboration**: Extensive discussions with service managers to understand the unique requirements of each service (e.g., food delivery, grocery delivery, package delivery).
+4. **Business-aligned constraints**  
+   It’s not enough to minimize mean absolute error. The prediction system must align with business constraints such as:  
+   - High hit rate within promised intervals (e.g., 90% within 10-minute window)  
+   - Conservative estimates under high uncertainty  
+   - Operational feasibility for batching, routing, and capacity planning
 
-2. **Requirement Gathering**: Precisely identifying model requirements for each service through these collaborations.
-
-3. **Metric Definition**: Working with stakeholders to define appropriate success metrics and evaluation criteria for each service.
-
-4. **Challenge Identification**: Recognizing key challenges such as diverse operational models, varying data availability, dynamic external factors, and scalability requirements.
 
 ## Data Analysis and Feature Engineering
 
