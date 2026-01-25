@@ -28,6 +28,16 @@ For a comprehensive overview of my technical skills and the tools I use:
    - Developed an end-to-end system that combines computer vision and LLMs to detect ingredients and provide comprehensive allergen information from food images, improving ingredient detection accuracy especially for allergenic substances
    - Key technologies: CLIP, Vision Transformers, Large Language Models, MLOps
 
+4. **[Comic Book Recommendation System for Mobile Webtoon Users](./works/webtoon-recommendation.md)**
+   - Built a hybrid recommendation system for a newly launched mobile webtoon service, addressing the cold start problem with content-based and collaborative filtering.
+   - Implemented real-time adaptation, A/B testing frameworks, and scalable architecture for growing user bases.
+   - Key technologies: Python, LightFM, Collaborative Filtering, Content-Based Filtering, A/B Testing
+
+5. **[RAG와 LLM을 활용한 기업 지식 관리 시스템 PoC](./works/rag-llm-poc.md)**
+   - AWS 기반 RAG 아키텍처를 설계하여 기업 문서 검색 및 LLM 기반 답변 생성 시스템 구축
+   - Hybrid Search, Re-ranking, Query Expansion 등 검색 품질 최적화 기법 적용
+   - Key technologies: AWS Bedrock, OpenSearch, RAG, LLM, Prompt Engineering
+
 ## Technical Proficiency
 
 ### Programming Languages

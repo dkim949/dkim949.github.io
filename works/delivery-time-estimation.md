@@ -160,4 +160,4 @@ Key aspects of the monitoring and maintenance phase included:
 
 This project demonstrated my ability to lead complex data science initiatives that directly impact core business operations across multiple service lines. It showcased my skills in stakeholder management, advanced modeling techniques, and aligning data science solutions with dynamic business objectives.
 
-[Back to Home](../index.md)
+[Back to Works](/works/)
