@@ -13,7 +13,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Dong-in Kim
-  tagline: Data Scientist. Problem Solver. Storyteller.
+  tagline: Data Scientist. AI Orchestrator. Storyteller.
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   navigation:
