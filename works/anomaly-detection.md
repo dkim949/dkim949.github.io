@@ -111,4 +111,4 @@ Key aspects of the implementation and monitoring phase included:
 
 This project demonstrated my ability to develop and implement complex, real-time data analysis systems that directly impact core business operations. It showcased my skills in statistical modeling, real-time data processing, and aligning data science solutions with critical operational needs.
 
-[Back to Home](../index.md)
+[Back to Works](/works/)

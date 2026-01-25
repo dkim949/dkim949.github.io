@@ -63,4 +63,4 @@ Food image classification presents unique challenges due to the fine-grained nat
 
 This project demonstrated the effectiveness of combining traditional CNN architectures with modern attention mechanisms for fine-grained visual classification tasks. The resulting model showed significant improvements in food image classification while maintaining practical computational requirements.
 
-[Back to Home](../index.md)
+[Back to Works](/works/)
