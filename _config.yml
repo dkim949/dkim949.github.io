@@ -21,6 +21,8 @@ plainwhite:
       url: "/about"
     - title: Works
       url: "/works"
+    - title: Blog
+      url: "/blog"
   search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
   portfolio_image: "assets/images/profile_photo.png" # the path from the base directory of the site to the image to display (no / at the start)
