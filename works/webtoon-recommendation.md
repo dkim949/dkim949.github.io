@@ -79,7 +79,7 @@ Key aspects of the implementation and monitoring phase included:
 
 2. **Performance Monitoring**: Developed dashboards to track key performance indicators such as user engagement and retention rates.
 
-3. . **Iterative Improvement**: Regularly updated the model based on new data and changing user preferences.
+3. **Iterative Improvement**: Regularly updated the model based on new data and changing user preferences.
 
 ## Results and Impact
 
@@ -90,4 +90,4 @@ Key aspects of the implementation and monitoring phase included:
 
 This project demonstrated my ability to develop and implement complex recommendation systems that directly impact user engagement and retention. It showcased my skills in machine learning, data analysis, and aligning technical solutions with business objectives in a rapidly evolving digital product environment.
 
-[Back to Home](../index.md)
+[Back to Works](/works/)
