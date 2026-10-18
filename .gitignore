@@ -10,3 +10,4 @@ tags
 .local/
 __pycache__/
 *.pyc
+studio/references/guides/

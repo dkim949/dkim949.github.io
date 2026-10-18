@@ -38,6 +38,8 @@ exclude:
   - scripts
   - tests
   - docs
+  - studio
+  - DESIGN.md
   - Gemfile
   - Gemfile.lock
   - plainwhite.gemspec

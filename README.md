@@ -4,6 +4,8 @@
 
 한 문장도 자연스럽게 남길 수 있는 개인 기록장입니다. Jekyll 3.10과 기존 GitHub Pages를 사용합니다.
 
+**작업 폴더는 `~/git/dkim949.github.io/` 하나입니다.** 도안·레퍼런스는 [studio](studio/README.md)에 통합했고, 이전 Astro 시도는 로컬 archive에 보관했습니다. [폴더 위치와 복구 방법](docs/workspace.md) · [현재 디자인 기준](DESIGN.md).
+
 ## 시작하기
 
 Python 3.9 이상에서 추가 package 없이 draft를 만듭니다. 아래 문장은 사용법 예시입니다.
@@ -20,7 +22,10 @@ python3 scripts/note.py new '오늘은 작은 아이디어를 하나 시험했�
 - `.local/notes/`: 비공개 draft. Git과 build에서 제외합니다.
 - `works/`, `blog/`: 기존 프로젝트 5개와 글 4개. 기존 URL을 유지합니다.
 - `_data/`: 프로젝트와 글 목록.
-- `_layouts/`, `_includes/`, `assets/css/notebook.css`: 화면과 ASCII 도형.
+- `_layouts/`, `_includes/`, `assets/css/notebook.css`: 화면 구조와 ASCII 도형.
+- `assets/css/editorial.css`: 현재 cream·coral·serif theme.
+- `studio/`: 도안·레퍼런스·brief. 공개 build 제외.
+- `.local/archive/`: 이전 시도와 이관 snapshot. Git·공개 build 제외.
 - `about.md`: 프로필.
 - `scripts/`, `tests/`, `docs/`: 게시 도구, 검사, 사용법. 사이트에는 포함하지 않습니다.
 
@@ -48,4 +53,4 @@ JEKYLL_NO_BUNDLER_REQUIRE=true ruby vendor/gems/bin/jekyll build --strict_front_
 
 ## 디자인 출처
 
-Moon의 여백과 정돈된 목록, Tessel의 단순한 도형, Son Daven의 ASCII 질감을 참고했습니다. 레이아웃과 ASCII 도형은 이 사이트용으로 작성했으며 유료 template 코드나 asset은 사용하지 않았습니다. 이전 도안은 별도 `personal-site` 준비 폴더에 보관합니다.
+Moon의 여백과 정돈된 목록, Tessel의 단순한 도형, Son Daven의 ASCII 질감을 참고했습니다. 사용자 제공 DESIGN-claude.md의 cream·coral·serif 디자인을 현재 구조에 적용했습니다. 레이아웃과 ASCII 도형은 이 사이트용으로 작성했으며 유료 template 코드나 asset은 사용하지 않았습니다. 이전 도안은 `studio/design/`에 보존합니다.

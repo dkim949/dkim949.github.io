@@ -2,6 +2,18 @@
 
 사이트 기능과 디자인의 의미 있는 변경을 기록합니다. 짧은 기록이나 글을 추가할 때마다 version을 올리지는 않습니다.
 
+## 0.2.0 — 2026-10-18
+
+- 현재 구조와 ASCII 도형을 유지하면서 cream·coral·serif theme 적용.
+- 한글 serif 제목, 기존 sans 본문, 어두운 코드 블록. 작은 링크는 대비를 위해 짙은 coral 사용.
+- 준비 폴더를 `studio/`로 통합하고 이전 두 도안과 새 theme 비교 화면 제공.
+- 사용자 제공 디자인 원문을 `studio/references/DESIGN-claude.md`로 이동.
+- 프로젝트의 목적·독자·방문 행동·디자인 기준을 AGENTS.md, DESIGN.md, studio/brief.md에 정리.
+- 이전 Astro repository와 이관 snapshot은 `.local/archive/`에 Git 이력과 함께 보관. 로컬 전용이며 원격에 올리지 않음.
+- studio와 디자인 문서를 공개 build에서 제외하고 기존 output 검사에 추가.
+
+검증: Jekyll build, 14 HTML 페이지의 내부 링크·asset·XML·공개 제외 검사, desktop·390px·320px 화면, 본문·보조 글씨·링크·코드 색상 대비, 팀 critique.
+
 ## 0.1.0 — 2026-10-18
 
 - 넓은 여백, 한 가지 olive 색, ASCII 도형을 사용하는 개인 기록장 화면.
