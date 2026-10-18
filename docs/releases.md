@@ -5,7 +5,7 @@
 ## 변경 기록
 
 - `CHANGELOG.md`: 사용자에게 보이는 변화와 검증 내용을 기록합니다.
-- `VERSION`: 다음 공개 version. 현재는 `0.1.0` 준비 상태입니다.
+- `VERSION`: 이 source의 version. 현재는 `0.1.0`입니다.
 - `vMAJOR.MINOR.PATCH` tag / GitHub Release: 사이트 배포를 확인한 commit에 붙입니다.
 - 작은 기능은 MINOR, 수정은 PATCH. 글이나 기록 추가는 보통 일반 commit만 남깁니다.
 
@@ -14,7 +14,7 @@
 1. feature branch에서 구현하고 로컬 build 및 note tests를 실행합니다.
 2. PR의 Site checks와 실제 desktop/mobile 화면을 확인합니다.
 3. `main`에 합치면 기존 Pages workflow가 사이트를 갱신합니다.
-4. 공개 URL과 Pages build 성공을 확인한 뒤 changelog에 날짜를 적고 release를 만듭니다.
+4. 공개 URL과 Pages build 성공을 확인한 뒤 changelog의 version과 날짜로 release를 만듭니다.
 
 태그가 배포를 실행하지는 않습니다. 문제가 생기면 해당 변경을 되돌리는 새 commit을 main에 반영합니다. Git history를 강제로 다시 쓰지 않습니다.
 
