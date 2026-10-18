@@ -16,6 +16,7 @@ Dongin Kim의 만든 것과 생각의 변화가 쌓이는 개인 기록장이다
 
 - Obsidian 메모·직접 프롬프트·현재 대화를 사이트 기록으로 남기거나 수정할 때 [write-site-note](.agents/skills/write-site-note/SKILL.md)를 읽고 적용한다.
 - 글쓰기 기준은 이 skill 한 곳에서 관리한다. CLAUDE.md에서도 같은 원본을 참조한다.
+- 공개 사이트의 기본 언어는 영어다. 한국어 입력도 의미와 말투를 유지해 영어로 작성한다. 사용자와의 대화는 한국어로 유지한다.
 - Markdown 본문에 집중하고 현재 layout/theme이 시각 표현을 담당하게 한다. 초안은 `.local/notes/`, 공개용 파일은 `_notes/`다.
 
 ## Implementation

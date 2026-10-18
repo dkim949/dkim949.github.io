@@ -21,7 +21,7 @@ description: Obsidian의 선택한 메모, 사용자의 짧은 프롬프트, 현
 
 ## Voice and shape
 
-- 기본은 한국어의 담백한 개인 문장이다. 사용자의 말투·언어 요청을 우선하고 technical term은 자연스럽게 유지한다.
+- 사이트용 본문·제목의 기본 언어는 영어다. 한국어 메모나 대화도 의미·불확실함·사용자의 말투를 유지해 담백한 영어로 옮긴다. technical term은 자연스럽게 유지하고, 사용자가 특정 기록의 다른 언어를 명시하면 그 요청을 우선한다. 사용자와의 설명·대화는 한국어로 이어간다.
 - 한 문장부터 짧은 1–3개 문단이면 충분하다. 분량은 목표나 제한이 아니다. 한 기록에 한 가지 관찰·시도·질문·변화를 담고, 제목은 도움이 될 때만 붙인다.
 - 사용자가 말한 불확실함을 살린다. 계획은 계획으로, 결과는 확인된 결과로 쓴다. "해보고 싶다"를 "해냈다"로 바꾸지 않는다. 성과, 감정, 수치, 날짜, 인과관계를 보태지 않는다.
 - 생각의 변화는 이전 생각과 달라진 생각의 근거가 있을 때만 쓴다. 이전 기록 URL을 확인할 수 있으면 연결한다. 억지 교훈·성장 서사·홍보 문구·매번 같은 마무리를 만들지 않는다.
@@ -31,7 +31,7 @@ description: Obsidian의 선택한 메모, 사용자의 짧은 프롬프트, 현
 아래는 말투 비교를 위한 **가상 예시**이며 실제 기록으로 저장하지 않는다.
 
 > 재료: "기능을 줄여볼까 고민 중이야. 아직 바꾼 건 없어."
-> 기록: "기능을 조금 줄여볼까 고민 중이다. 아직 바꾸지는 않았다."
+> 기록: "I'm thinking about trimming a few features. I haven't changed anything yet."
 
 ## Theme is supplied by the site
 
@@ -45,7 +45,7 @@ description: Obsidian의 선택한 메모, 사용자의 짧은 프롬프트, 현
 
 1. **초안:** `python3 scripts/note.py new '본문'` 또는 `python3 scripts/note.py new --file '/선택한/메모.md'`. 반환된 `.local/notes/…md`를 필요에 맞게 편집한다. source frontmatter는 원문 그대로 공개하지 않는다.
 2. **선택한 초안 공개 전환:** `python3 scripts/note.py publish '.local/notes/반환된파일.md'`. 이는 `_notes/`에 공개용 source를 만드는 동작이다. commit·push·온라인 배포까지 완료하는 명령이 아니다.
-3. **Obsidian 원문 그대로 공개:** 사용자가 선택한 파일의 그대로 게시를 요청했고 정확한 `public: true`가 있을 때만 `python3 scripts/note.py import '/선택한/메모.md'`를 쓴다. 문장을 다듬을 때는 draft 경로를 쓴다. `public`이 없으면 원본을 고치지 말고 draft를 만들며, 명시적 공개 요청이 있으면 검토한 draft를 `publish`할 수 있다.
+3. **Obsidian 원문 그대로 공개:** 사용자가 선택한 파일의 그대로 게시를 요청했고 정확한 `public: true`가 있을 때만 `python3 scripts/note.py import '/선택한/메모.md'`를 쓴다. 영어 번역이나 문장 편집이 필요하면 draft 경로를 쓴다. CLI는 자동 번역하지 않는다. `public`이 없으면 원본을 고치지 말고 draft를 만들며, 명시적 공개 요청이 있으면 검토한 draft를 `publish`할 수 있다.
 
 날짜가 없으면 CLI의 현재 기록 시각을 사용하고 과거 사건 날짜처럼 표현하지 않는다. source에 명시된 `date`는 형식을 검증해 유지하되, 단순 파일 수정 시각을 작성일로 추정하지 않는다. 미래 날짜가 의도된 것인지 확인하고, 미래 기록은 현재 홈에 보이지 않으며 자동 예약 배포 기능은 없다고 구분한다.
 

@@ -5,7 +5,7 @@
 ## 변경 기록
 
 - `CHANGELOG.md`: 사용자에게 보이는 변화와 검증 내용을 기록합니다.
-- `VERSION`: 이 source의 version. 현재는 `0.2.0`입니다.
+- `VERSION`: 이 source의 version. 현재는 `0.3.0`입니다.
 - `vMAJOR.MINOR.PATCH` tag / GitHub Release: 사이트 배포를 확인한 commit에 붙입니다.
 - 작은 기능은 MINOR, 수정은 PATCH. 글이나 기록 추가는 보통 일반 commit만 남깁니다.
 

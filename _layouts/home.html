@@ -4,13 +4,13 @@ layout: default
 <div class="hero">
   <div class="hero-copy">
     <p class="eyebrow">A PERSONAL NOTEBOOK</p>
-    <h1>만들고 배우며,<br>조금씩 남깁니다.</h1>
-    <p class="intro-copy">코드와 작은 실험, 그 사이의 생각들.<br>짧게 적어두고, 가끔 돌아봅니다.</p>
+    <h1>Making, learning,<br>leaving a trace.</h1>
+    <p class="intro-copy">Code, small experiments, and thoughts along the way.<br> Brief notes to return to now and then.</p>
   </div>
   {% include ascii-blocks.html %}
 </div>
 <section class="section" aria-labelledby="notes-heading">
-  <div class="section-label"><h2 id="notes-heading">작은 기록</h2><p>FIELD NOTES</p></div>
+  <div class="section-label"><h2 id="notes-heading">Small notes</h2><p>FIELD NOTES</p></div>
   <div class="section-content">
     {% assign notes = site.notes | where: 'published', true | sort: 'date' | reverse %}
     {% assign visible_count = 0 %}
@@ -24,22 +24,22 @@ layout: default
           {% if note.content.size > 500 %}
           <p>{{ note.content | markdownify | strip_html | truncate: 200 }}</p>
           {% else %}{{ note.content | markdownify }}{% endif %}
-          <a class="note-link" href="{{ note.url | relative_url }}" aria-label="{{ note.date | date: '%Y년 %m월 %d일' }} 기록 읽기">[ 기록 읽기 ]</a>
+          <a class="note-link" href="{{ note.url | relative_url }}" aria-label="Read the note from {{ note.date | date: '%B %-d, %Y' }}">[ Read note ]</a>
         </div>
       </article>
       {% endif %}
     {% endfor %}
     {% if visible_count == 0 %}
-    <div class="empty-state"><p>짧은 기록을 위한 자리를 마련했습니다.</p><p>그동안 <a href="{{ '/works/' | relative_url }}">만든 것</a>과 <a href="{{ '/blog/' | relative_url }}">써둔 글</a>부터 둘러보세요.</p></div>
+    <div class="empty-state"><p>A space for short notes.</p><p>In the meantime, explore my <a href="{{ '/works/' | relative_url }}">projects</a> and <a href="{{ '/blog/' | relative_url }}">writing</a>.</p></div>
     {% endif %}
   </div>
 </section>
 <section class="section home-archive" aria-labelledby="archive-heading">
-  <div class="section-label"><h2 id="archive-heading">그동안 만든 것</h2><p>FROM THE ARCHIVE</p></div>
+  <div class="section-label"><h2 id="archive-heading">Things I've made</h2><p>FROM THE ARCHIVE</p></div>
   <div class="section-content">
     {% for project in site.data.projects limit: 2 %}
     <a class="project" href="{{ project.url | relative_url }}"><div><h3>{{ project.title | escape }}</h3><p>{{ project.summary | escape }}</p></div><span class="arrow" aria-hidden="true">↗</span></a>
     {% endfor %}
-    <a class="back-link" href="{{ '/works/' | relative_url }}">모든 프로젝트 보기 →</a>
+    <a class="back-link" href="{{ '/works/' | relative_url }}">View all projects →</a>
   </div>
 </section>

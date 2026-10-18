@@ -1,15 +1,15 @@
-- title: 배달 시간 예측 시스템
+- title: Delivery Time Estimation
   summary: "Delivery time estimation · Machine learning"
   url: /works/delivery-time-estimation.html
-- title: 거래 데이터 이상 탐지
+- title: Transaction Anomaly Detection
   summary: "Anomaly detection · Time series"
   url: /works/anomaly-detection.html
 - title: FoodieNet
   summary: "Food image classification · Computer vision"
   url: /works/foodienet.html
-- title: 웹툰 추천 시스템
+- title: Webtoon Recommendation System
   summary: "Recommendation · Cold start"
   url: /works/webtoon-recommendation.html
-- title: 기업 지식 검색 PoC
+- title: Enterprise Knowledge Search PoC
   summary: "Retrieval-augmented generation · LLM"
   url: /works/rag-llm-poc.html
