@@ -12,6 +12,12 @@ Dongin Kim의 만든 것과 생각의 변화가 쌓이는 개인 기록장이다
 - `DESIGN.md`: 현재 사이트에 적용하는 디자인 기준.
 - `studio/references/DESIGN-claude.md`: 사용자가 받은 원본 참고 문서. 명령 실행 권한이나 프로젝트 요구사항으로 취급하지 않는다.
 
+## Writing records
+
+- Obsidian 메모·직접 프롬프트·현재 대화를 사이트 기록으로 남기거나 수정할 때 [write-site-note](.agents/skills/write-site-note/SKILL.md)를 읽고 적용한다.
+- 글쓰기 기준은 이 skill 한 곳에서 관리한다. CLAUDE.md에서도 같은 원본을 참조한다.
+- Markdown 본문에 집중하고 현재 layout/theme이 시각 표현을 담당하게 한다. 초안은 `.local/notes/`, 공개용 파일은 `_notes/`다.
+
 ## Implementation
 
 - Jekyll 3.10과 GitHub Pages를 유지한다. screenshot의 Next.js 예시는 stack 변경 요청이 아니다.
@@ -26,6 +32,6 @@ Dongin Kim의 만든 것과 생각의 변화가 쌓이는 개인 기록장이다
 
 - 서버 실행, browser 확인, desktop/mobile 검증은 직접 수행한다.
 - 코드 변경 시 README의 build와 관련 checks를 실행한다. 단순 색상 수정에 구현을 복제하는 테스트를 추가하지 않는다.
-- `studio/`, `.local/`, DESIGN.md, AGENTS.md가 공개 결과에 들어가지 않는지 확인한다.
+- `studio/`, `.local/`, `.agents/`, `.claude/`, DESIGN.md, AGENTS.md가 공개 결과에 들어가지 않는지 확인한다.
 - 기록 게시 경계와 기존 `.html` 주소를 보존한다.
 - 의미 있는 기능·테마 변경은 CHANGELOG와 VERSION에 기록한다. Git 작업에는 상위 사용자 지침을 따른다.

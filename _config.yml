@@ -33,6 +33,8 @@ sass:
 
 exclude:
   - .local
+  - .agents
+  - .claude
   - vendor
   - node_modules
   - scripts

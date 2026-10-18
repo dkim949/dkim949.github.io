@@ -1,5 +1,24 @@
 # 한 문장 기록하기
 
+## Agent에게 맡기기
+
+이 프로젝트에서 아래처럼 요청하면 [write-site-note skill](../.agents/skills/write-site-note/SKILL.md)이 글의 길이·말투·출처·게시 절차를 안내합니다.
+
+- "이 대화에서 남길 만한 생각 하나를 사이트용 초안으로 써줘."
+- "이 Obsidian 메모를 내 말투로 짧게 정리해줘. 공개는 하지 마." + 선택한 파일 경로
+- "아래 문장을 한 문장 기록으로 다듬어줘."
+- "방금 확인한 초안을 사이트에 게시하고 배포까지 해줘."
+
+초안 요청은 `.local/notes/`에 저장합니다. 특정 내용을 사이트에 올리라는 요청은 그 내용의 공개 요청으로 처리하되, Git/배포에는 현재 세션의 승인 범위와 상위 지침을 따릅니다. 파일 생성과 실제 온라인 게시 상태를 구분해서 알려줍니다.
+
+색·글꼴·여백은 기존 theme이 적용하므로 글마다 디자인을 지정하지 않아도 됩니다. 제목·이미지·교훈도 필수가 아닙니다. 예전 대화 전체나 Obsidian vault를 자동 공개하지 않습니다.
+
+Codex에서는 `$write-site-note`, Claude Code에서는 `/write-site-note`로 명시할 수도 있습니다. 프로젝트 내부에 원본 `.agents/skills/write-site-note/`와 이를 가리키는 `.claude/skills/write-site-note` symlink를 둡니다. 두 곳의 내용은 따로 수정하지 않습니다. 현재 세션의 목록에 안 보이면 위 SKILL.md 경로를 직접 지정하거나 이 repository에서 새 세션을 시작합니다. 다른 프로젝트에서는 이 skill의 절대 경로를 지정합니다.
+
+발견 경로와 symlink 지원: [OpenAI 공식 문서](https://learn.chatgpt.com/docs/build-skills), [Claude Code 공식 문서](https://code.claude.com/docs/en/skills).
+
+## CLI로 직접 작성하기
+
 제목, 요약, 이미지, 교훈 없이 한 문장으로 끝내도 됩니다. 아래 문장은 사용법을 위한 예시입니다. CLI에는 Python 3.9 이상이 필요하며 추가 package는 없습니다.
 
 저장소 root에서 실행합니다.

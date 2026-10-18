@@ -2,6 +2,12 @@
 
 사이트 기능과 디자인의 의미 있는 변경을 기록합니다. 짧은 기록이나 글을 추가할 때마다 version을 올리지는 않습니다.
 
+## Unreleased
+
+- Obsidian·프롬프트·현재 대화를 짧은 기록으로 작성하는 project-local `write-site-note` skill 추가.
+- AGENTS.md·CLAUDE.md에서 같은 작성 기준 연결. 비공개 draft, 공개용 source, 실제 배포 상태 구분.
+- Agent skill 디렉터리를 Pages build 제외 목록과 output 검사에 명시.
+
 ## 0.2.0 — 2026-10-18
 
 - 현재 구조와 ASCII 도형을 유지하면서 cream·coral·serif theme 적용.
