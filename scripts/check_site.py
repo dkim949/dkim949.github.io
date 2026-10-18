@@ -40,7 +40,7 @@ def check_site(site: Path) -> list[str]:
     for name in required:
         if not (site / name).is_file():
             errors.append(f"Missing route: {name}")
-    for name in (".local", "vendor", "scripts", "tests", "docs", "README.md", "CLAUDE.md", "marketing_AB.csv", "marketing_AB.ipynb", "assets/images/anomaly_detection2.png"):
+    for name in (".local", "vendor", "scripts", "tests", "docs", "studio", "DESIGN.md", "AGENTS.md", "README.md", "CLAUDE.md", "marketing_AB.csv", "marketing_AB.ipynb", "assets/images/anomaly_detection2.png"):
         if (site / name).exists():
             errors.append(f"Excluded source in build: {name}")
     for page in site.rglob("*.html"):

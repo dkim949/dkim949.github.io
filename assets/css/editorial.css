@@ -1,0 +1,61 @@
+/* Visual tokens from DESIGN.md. Structural layout remains in notebook.css. */
+:root {
+  --paper: #faf9f5;
+  --ink: #141413;
+  --body-ink: #3d3d3a;
+  --muted: #6c6a64;
+  --line: #e6dfd8;
+  --coral: #cc785c;
+  --accent: #a9583e;
+  --selection: #e8e0d2;
+  --surface-soft: #f5f0e8;
+  --surface-dark: #181715;
+  --on-dark: #faf9f5;
+  --display: "Noto Serif KR", "Iowan Old Style", "AppleMyungjo", Georgia, serif;
+  --radius-code: 8px;
+}
+
+body { color: var(--body-ink); font-size: 16px; }
+h1, h2, h3, .identity-name { color: var(--ink); }
+h1, .prose h2, .prose h3, .section-label h2 {
+  font-family: var(--display);
+  font-weight: 400;
+  letter-spacing: -.035em;
+}
+h1 { line-height: 1.48; }
+.hero { padding-block: 88px; }
+.hero h1 { font-size: clamp(32px, 3.8vw, 46px); }
+.identity-mark, .ascii-art { color: var(--coral); }
+.section-label h2 { font-size: 16px; }
+.project h3 { font-size: 18px; }
+.prose h1 { font-weight: 400; }
+.prose h2, .prose h3 { font-weight: 400; }
+.prose a, .note-content a, .empty-state a { color: var(--accent); }
+.prose blockquote { border-left-color: var(--coral); }
+.prose pre, .note-content pre {
+  color: var(--on-dark);
+  background: var(--surface-dark);
+  border-radius: var(--radius-code);
+  padding: 24px;
+  font-size: 13px;
+  line-height: 1.8;
+}
+.prose pre code, .note-content pre code { color: inherit; font-size: inherit; }
+.prose :not(pre) > code { background: var(--surface-soft); padding: 2px 4px; border-radius: 3px; }
+.prose th { background: var(--surface-soft); color: var(--ink); }
+.note-link { color: var(--accent); }
+
+@media (max-width: 900px) {
+  .hero { padding-block: 64px; }
+}
+@media (max-width: 640px) {
+  .hero { padding-block: 52px; }
+  .hero h1 { font-size: 28px; }
+  .section-label h2 { font-size: 15px; }
+  .project h3 { font-size: 17px; }
+  .prose { font-size: 15px; }
+  .prose pre, .note-content pre { padding: 18px; font-size: 12px; }
+}
+@media (max-width: 370px) {
+  .hero h1 { font-size: 25px; }
+}

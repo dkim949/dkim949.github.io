@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Dongin Kim — 시안 비교</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #30352f; background: #f6f5f0; font: 13px/1.5 -apple-system, sans-serif; }
+    .review-bar { min-height: 66px; padding: 10px 24px; display: flex; align-items: center; gap: 22px; border-bottom: 1px solid #d6d8ce; background: #fffefa; }
+    .review-label { font-size: 12px; color: #6e7369; }
+    .variants { display: flex; gap: 5px; }
+    button { color: inherit; font: inherit; min-height: 44px; padding: 8px 14px; border: 0; background: transparent; cursor: pointer; }
+    button[aria-pressed="true"] { background: #e7ebdf; color: #384b34; }
+    .review-note { margin-left: auto; color: #6e7369; font-size: 11px; }
+    iframe { display: block; border: 0; width: 100%; height: calc(100dvh - 66px); background: #f6f5f0; }
+    button:focus-visible { outline: 2px solid #51644d; outline-offset: 2px; }
+    @media (max-width: 600px) {
+      .review-bar { padding-inline: 12px; gap: 12px; }
+      .review-note { display: none; }
+      button { font-size: 12px; padding-inline: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="review-bar">
+    <span class="review-label">시안 비교</span>
+    <nav class="variants" aria-label="디자인 시안 선택">
+      <button type="button" data-variant="original" aria-pressed="false" aria-controls="design-frame">여백과 도형</button>
+      <button type="button" data-variant="ascii" aria-pressed="true" aria-controls="design-frame">문자와 여백</button>
+      <button type="button" data-variant="editorial" aria-pressed="false" aria-controls="design-frame">따뜻한 기록장</button>
+    </nav>
+    <span class="review-note" id="review-note">기존 두 도안의 기록·날짜는 가상 예시입니다.</span>
+  </header>
+  <iframe id="design-frame" src="ascii-preview.html" title="문자와 여백 — ASCII 시안"></iframe>
+  <script>
+    (() => {
+      const frame = document.getElementById('design-frame');
+      const buttons = Array.from(document.querySelectorAll('[data-variant]'));
+      const variants = {
+        original: {src: 'preview.html', title: '여백과 도형 — 기존 시안'},
+        ascii: {src: 'ascii-preview.html', title: '문자와 여백 — ASCII 시안'},
+        editorial: {src: 'editorial-preview.html', title: '따뜻한 기록장 — 실제 사이트 theme'}
+      };
+      function show_variant(name) {
+        const active_name = Object.hasOwn(variants, name) ? name : 'ascii';
+        const variant = variants[active_name];
+        if (frame.getAttribute('src') !== variant.src) frame.src = variant.src;
+        frame.title = variant.title;
+        document.getElementById('review-note').textContent = active_name === 'editorial'
+          ? '실제 사이트 첫 화면의 snapshot입니다.'
+          : '기존 두 도안의 기록·날짜는 가상 예시입니다.';
+        buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.variant === active_name)));
+      }
+      buttons.forEach(button => button.addEventListener('click', () => {
+        show_variant(button.dataset.variant);
+        history.replaceState(null, '', '#' + button.dataset.variant);
+      }));
+      window.addEventListener('hashchange', () => show_variant(location.hash.slice(1)));
+      show_variant(location.hash.slice(1));
+    })();
+  </script>
+</body>
+</html>
