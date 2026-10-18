@@ -1,30 +1,11 @@
-<!--
-  Thanks for creating a Pull Request! Before you submit, please make sure
-  you've done the following:
+## Change
 
-  - Read the contributing document at https://github.com/mmistakes/minimal-mistakes#contributing
--->
+Describe the visible behavior and why it changed.
 
-<!--
-  Choose one of the following by uncommenting it:
--->
+## Validation
 
-<!-- This is a bug fix. -->
-<!-- This is an enhancement or feature. -->
-<!-- This is a documentation change. -->
+Record relevant build, publishing, link, and visual checks.
 
-## Summary
+## Release
 
-<!--
-  Provide a description of what your pull request changes.
--->
-
-## Context
-
-<!--
-  Is this related to any GitHub issue(s)?
--->
-
-<!--
-  Please confirm that you want to submit this Pull Request to Minimal Mistakes, the free Jekyll theme by Michael Rose, by deleting this comment block.
--->
+Note any publishing or migration steps. Content-only changes do not require a version bump.

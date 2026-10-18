@@ -1,57 +1,45 @@
 ---
 layout: default
 ---
-
-{%- if page.title -%}
-  <h1 class="page-heading">{{ page.title }}</h1>
-{%- endif -%}
-
-{{ content }}
-
-{%- if site.posts.size > 0 -%}
-  <ul class="posts">
-    <li class="posts-labelgroup" id="posts-labelgroup">
-      <h1 id="posts-label">posts</h1>
-      {% if site.plainwhite.search %}
-      <div class="search-container">
-        <div class="search-section">
-          <i class="icon-search"></i>
-          <input type="text" name="search" id="searchbar" autocomplete="off" aria-label="search in posts">
+<div class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">A PERSONAL NOTEBOOK</p>
+    <h1>만들고 배우며,<br>조금씩 남깁니다.</h1>
+    <p class="intro-copy">코드와 작은 실험, 그 사이의 생각들.<br>짧게 적어두고, 가끔 돌아봅니다.</p>
+  </div>
+  {% include ascii-blocks.html %}
+</div>
+<section class="section" aria-labelledby="notes-heading">
+  <div class="section-label"><h2 id="notes-heading">작은 기록</h2><p>FIELD NOTES</p></div>
+  <div class="section-content">
+    {% assign notes = site.notes | where: 'published', true | sort: 'date' | reverse %}
+    {% assign visible_count = 0 %}
+    {% for note in notes %}
+      {% if note.published == true and note.date <= site.time %}
+      {% assign visible_count = visible_count | plus: 1 %}
+      <article class="entry">
+        <time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: '%m.%d' }}<br>{{ note.date | date: '%Y' }}</time>
+        <div class="note-content">
+          {% if note.title != '' %}<h3>{{ note.title | escape }}</h3>{% endif %}
+          {% if note.content.size > 500 %}
+          <p>{{ note.content | markdownify | strip_html | truncate: 200 }}</p>
+          {% else %}{{ note.content | markdownify }}{% endif %}
+          <a class="note-link" href="{{ note.url | relative_url }}" aria-label="{{ note.date | date: '%Y년 %m월 %d일' }} 기록 읽기">[ 기록 읽기 ]</a>
         </div>
-        <div class="search-results" id="search-results" data-placeholder="No Results" style="display: none;"></div>
-      </div>
+      </article>
       {% endif %}
-    </li>
-
-    {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          <h2 class="post-title">{{ post.title | escape }}</h2>
-        </a>
-        <div class="post-meta">
-          <div class="post-date">
-            <i class="icon-calendar"></i>
-            {{ post.date | date: date_format }}
-          </div>
-          {%- if post.categories.size > 0-%}
-          <ul class="post-categories">
-            {%- for tag in post.categories -%}
-            <li>{{ tag }}</li>
-            {%- endfor -%}
-          </ul>
-          {%- endif -%}
-        </div>
-        <div class="post">
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </div>
-      </li>
-    {%- endfor -%}
-  </ul>
-
-  <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
-		<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-	</svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
-{%- endif -%}
+    {% endfor %}
+    {% if visible_count == 0 %}
+    <div class="empty-state"><p>짧은 기록을 위한 자리를 마련했습니다.</p><p>그동안 <a href="{{ '/works/' | relative_url }}">만든 것</a>과 <a href="{{ '/blog/' | relative_url }}">써둔 글</a>부터 둘러보세요.</p></div>
+    {% endif %}
+  </div>
+</section>
+<section class="section home-archive" aria-labelledby="archive-heading">
+  <div class="section-label"><h2 id="archive-heading">그동안 만든 것</h2><p>FROM THE ARCHIVE</p></div>
+  <div class="section-content">
+    {% for project in site.data.projects limit: 2 %}
+    <a class="project" href="{{ project.url | relative_url }}"><div><h3>{{ project.title | escape }}</h3><p>{{ project.summary | escape }}</p></div><span class="arrow" aria-hidden="true">↗</span></a>
+    {% endfor %}
+    <a class="back-link" href="{{ '/works/' | relative_url }}">모든 프로젝트 보기 →</a>
+  </div>
+</section>

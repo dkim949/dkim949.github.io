@@ -1,34 +1,7 @@
 ---
-title: Page Not Found
+layout: page
+title: 페이지를 찾을 수 없습니다
+permalink: /404.html
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	{%- include head.html -%}
-	<style>
-	h2 {
-		font-feature-settings: "lnum";
-		background-color: #ddd;
-		width: 140px;
-		height: 140px;
-		border-radius: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center
-	}
-	body {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		font-size: 20px;
-		height: 80vh;
-	}
-	p {text-align: center; line-height: 2em;}
-	</style>
-</head>
-<body>
-	<h2>404</h2>
-	<p>Page not found.</p>
-</body>
-</html>
+<h1>이 페이지는 없네요.</h1>
+<p><a href="{{ '/' | relative_url }}">작은 기록으로 돌아가기</a> · <a href="{{ '/works/' | relative_url }}">만든 것 보기</a></p>

@@ -40,7 +40,6 @@ In a high-throughput environment like food and retail delivery, our system must 
 
    > $ETA = T_{dispatch} + T_{pickup} + T_{transit}$  
 
-   [Insert: Layered bar chart showing variance in each time component]
 
 3. **Long-tail and rare events**  
 ![ Density plot comparing normal vs long-tailed delivery distributions](../assets/images/long_tail_distribution.png)

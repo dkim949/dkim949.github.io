@@ -1,67 +1,52 @@
-title: Dongin's Works
+title: Dongin Kim
 author: Dongin Kim
-email: donginkim88@gmail.com
-description: > # this means to ignore newlines until "show_exerpts:"
-  Data Scientist with over 6 years of expertise in business analytics and predictive modeling. 
-url: "https://dkim949.github.io" # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog
-show_excerpts: true # set to true to show excerpts on the homepage
+description: "Berlin에서 ML과 배달 시간 예측을 다루고, AI로 작은 제품을 만듭니다."
+url: "https://dkim949.github.io"
+baseurl: ""
+lang: ko
+timezone: Europe/Berlin
 
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-sass:
-  sass_dir: _sass
-plainwhite:
-  name: Dong-in Kim
-  tagline: Data Scientist. AI Orchestrator. Storyteller.
-  date_format: "%b %-d, %Y"
-  sitemap: true # set to true to generate sitemap.xml content
-  navigation:
-    - title: About
-      url: "/about"
-    - title: Works
-      url: "/works"
-    - title: Blog
-      url: "/blog"
-  search: true # set to true to enable searchbar
-  dark_mode: true # set to true to add dark mode toggle
-  portfolio_image: "assets/images/profile_photo_v2_cropped.jpeg" # the path from the base directory of the site to the image to display (no / at the start)
-  html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
-  condensed_mobile:
-    - home
-    - page
-    - post
-  # generate social links in footer
-  social_links:
-#    twitter: samarsault
-    github:  dkim949
-    linkedIn: in/donginkim88
-    #dribbble: jekyll
-    #flickr:   jekyll
-    #instagram: jekyll
-    #pinterest: jekyll
-    #youtube: jekyll
-    #facebook: jekyll
-    #soundcloud: jekyll
-    #telegram: jekyll
-    #gitlab: jekyll
-    email: donginkim88@gmail.com
+navigation:
+  - {key: notes, title: 기록, url: /}
+  - {key: works, title: 만든 것, url: /works/}
+  - {key: blog, title: 글, url: /blog/}
+  - {key: about, title: 소개, url: /about/}
 
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
+collections:
+  notes:
+    output: true
+    permalink: /notes/:name/
 
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
-
-# Build settings
-#theme: plainwhite
+defaults:
+  - scope: {path: "", type: notes}
+    values: {layout: note, nav: notes, published: false, title: ""}
+  - scope: {path: works}
+    values: {nav: works, lang: en}
+  - scope: {path: blog}
+    values: {nav: blog, lang: en}
 
 plugins:
   - jekyll-seo-tag
-#  - jekyll-feed
+
+sass:
+  sass_dir: _sass
+
+exclude:
+  - .local
+  - vendor
+  - node_modules
+  - scripts
+  - tests
+  - docs
+  - Gemfile
+  - Gemfile.lock
+  - plainwhite.gemspec
+  - README.md
+  - CLAUDE.md
+  - AGENTS.md
+  - CHANGELOG.md
+  - VERSION
+  - LICENSE.txt
+  - marketing_AB.csv
+  - marketing_AB.ipynb
+  - assets/images/anomaly_detection2.png

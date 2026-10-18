@@ -65,7 +65,6 @@ The modeling approach was tailored to the specific requirements of real-time ano
    - Created buffer zones between threshold levels to prevent alert flooding
 
 3. **Alert System Integration**:
-   ![Slack Alert System](../assets/images/anomaly_detection2.png)
    *Real-time Slack notifications with severity levels and relevant metrics*
    
    - Designed an automated alert system integrated with Slack

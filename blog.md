@@ -1,31 +1,15 @@
 ---
-layout: page
-title: Blog
+layout: default
+title: 글
+nav: blog
 permalink: /blog/
 ---
-
-# Blog
-
-Insights on data science, AI tools, and practical techniques for modern data practitioners.
-
----
-
-### [Claude Code: Your AI Pair Programmer for Data Science](/blog/claude-code-intro.html)
-How to leverage AI coding assistants to accelerate your data science workflow—from EDA automation to model code review.
-`#AI` `#Productivity`
-
-### [MCP: Connecting AI to Your Data Science Tools](/blog/mcp-model-context-protocol.html)
-A deep dive into Model Context Protocol—connecting your AI assistant directly to databases, APIs, and ML infrastructure.
-`#AI` `#Infrastructure`
-
-### [SubAgents: Parallelizing Your AI-Assisted Analysis](/blog/subagents-parallel-exploration.html)
-Learn how to spawn multiple AI workers for parallel codebase exploration and concurrent data analysis.
-`#AI` `#Productivity`
-
-### [Skills: Building Reusable AI Workflows](/blog/skills-reusable-ai-workflows.html)
-Create reusable instruction sets to standardize repetitive tasks and share workflows across your team.
-`#AI` `#Automation`
-
----
-
-*More posts coming soon...*
+<section class="section-page">
+  <p class="eyebrow">FROM THE ARCHIVE</p>
+  <h1>조금 길게 써둔 글.</h1>
+  <div class="archive-list">
+    {% for article in site.data.articles %}
+    <a class="project" href="{{ article.url | relative_url }}"><div><h3>{{ article.title | escape }}</h3><p>{{ article.summary | escape }}</p></div><span class="arrow" aria-hidden="true">↗</span></a>
+    {% endfor %}
+  </div>
+</section>
