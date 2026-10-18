@@ -3,7 +3,8 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
-  <title>Dongin Kim — 작은 기록</title>
+  <title>Dongin Kim — Small notes</title>
+  <language>en</language>
   <link>{{ '/' | absolute_url | xml_escape }}</link>
   <description>{{ site.description | xml_escape }}</description>
   {% assign notes = site.notes | where: 'published', true | sort: 'date' | reverse %}

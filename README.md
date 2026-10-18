@@ -6,6 +6,8 @@
 
 **작업 폴더는 `~/git/dkim949.github.io/` 하나입니다.** 도안·레퍼런스는 [studio](studio/README.md)에 통합했고, 이전 Astro 시도는 로컬 archive에 보관했습니다. [폴더 위치와 복구 방법](docs/workspace.md) · [현재 디자인 기준](DESIGN.md).
 
+Agent에게 "이 대화를 사이트용 초안으로 남겨줘"라고 요청할 수 있습니다. [기록 작성 skill](.agents/skills/write-site-note/SKILL.md)을 AGENTS.md와 CLAUDE.md에서 함께 사용합니다. [사용 예시](docs/writing.md#agent에게-맡기기).
+
 ## 시작하기
 
 Python 3.9 이상에서 추가 package 없이 draft를 만듭니다. 아래 문장은 사용법 예시입니다.

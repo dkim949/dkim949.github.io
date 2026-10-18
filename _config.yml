@@ -1,16 +1,16 @@
 title: Dongin Kim
 author: Dongin Kim
-description: "Berlin에서 ML과 배달 시간 예측을 다루고, AI로 작은 제품을 만듭니다."
+description: "I work on machine learning and delivery time estimation in Berlin, and build small products with AI."
 url: "https://dkim949.github.io"
 baseurl: ""
-lang: ko
+lang: en
 timezone: Europe/Berlin
 
 navigation:
-  - {key: notes, title: 기록, url: /}
-  - {key: works, title: 만든 것, url: /works/}
-  - {key: blog, title: 글, url: /blog/}
-  - {key: about, title: 소개, url: /about/}
+  - {key: notes, title: Notes, url: /}
+  - {key: works, title: Work, url: /works/}
+  - {key: blog, title: Writing, url: /blog/}
+  - {key: about, title: About, url: /about/}
 
 collections:
   notes:
@@ -33,6 +33,8 @@ sass:
 
 exclude:
   - .local
+  - .agents
+  - .claude
   - vendor
   - node_modules
   - scripts
