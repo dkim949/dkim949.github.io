@@ -185,6 +185,6 @@ SubAgents are powerful on their own, but they become even more valuable when orc
 
 ---
 
-*This is Part 3 of the "AI Agents for Data Scientists" series. [Read Part 1: Claude Code](/blog/claude-code-intro) | [Read Part 2: MCP](/blog/) | Stay tuned for Part 4!*
+*This is Part 3 of the "AI Agents for Data Scientists" series. [Read Part 1: Claude Code](/blog/claude-code-intro.html) · [Read Part 2: MCP](/blog/mcp-model-context-protocol.html) · [Read Part 4: Skills](/blog/skills-reusable-ai-workflows.html)*
 
 [Back to Blog](/blog/)

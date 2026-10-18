@@ -1,30 +1,25 @@
 ---
 layout: page
-title: About
+title: 소개
+nav: about
 permalink: /about/
 ---
 
-## Welcome!
-Welcome aboard! Hi, I'm Dong-in, but you can call me Don. I'm someone who loves trying new things and exploring new challenges. Lately, I've been really into boxing and hiking. Take a look around and get to know me better!
-<br>
+# Dongin Kim
 
-## About Me
-I am a passionate Data Scientist skilled in full-cycle data science project—from building models to delivering insights. With **over 6 years of experience**, I have consistently delivered impactful solutions that drive decision-making and improve operational efficiency. Based in Seoul, South Korea, I have been instrumental in handling large-scale data for platforms serving **over 20 million monthly active users** and processing **millions of daily transactions**.
+Berlin에서 Delivery Hero의 ML과 배달 시간 예측을 다룹니다. 모델을 실제로 쓰이는 제품으로 연결하는 일에 관심이 있습니다.
 
-I specialize in machine learning and deep learning, using tools like TensorFlow, PyTorch, and scikit-learn to develop **predictive models**. My expertise extends to **data visualization**, with proficiency in Tableau and Seaborn, helping to turn complex data into actionable insights. Additionally, I have experience in time series analysis and natural language processing using techniques such as LSTM and Transformers.
+일 밖에서는 AI와 일상적인 문제 사이에서 작은 제품을 만듭니다. 이곳에는 만든 것과 생각의 변화를 조금씩 남깁니다.
 
-Recently, I completed a Proof of Concept (PoC) project with AWS, utilizing **Retrieval-Augmented Generation (RAG)** and **Large Language Models (LLMs)** to explore innovative AI applications in business scenarios. I am also deeply interested in **Explainable AI (XAI)** and **Multi-modal AI**, having applied various interpretability techniques while exploring innovative applications that combine different data modalities.
+Don이라고 불러도 좋습니다. 복싱과 하이킹을 즐깁니다.
 
-<br>
+## 연결
 
-## Contact
-- **Email:** [donginkim88@gmail.com](mailto:donginkim88@gmail.com)
-- **LinkedIn:** [linkedin.com/in/donginkim88](https://www.linkedin.com/in/donginkim88)
-- **GitHub:** [github.com/dkim949](https://github.com/dkim949)
-- **Medium:** [medium.com/@donginkim88](https://medium.com/@donginkim88)
+- [GitHub](https://github.com/dkim949)
+- [LinkedIn](https://www.linkedin.com/in/donginkim88/)
+- [Medium](https://medium.com/@donginkim88)
+- [Email](mailto:donginkim88@gmail.com)
 
-<br>
+![Himalayas, 2024]({{ '/assets/images/himalaya.jpeg' | relative_url }})
 
-![Exploring the Heights of Himalaya](./assets/images/himalaya.jpeg)
-
-*A moment from my trek in the Himalayas, 2024.* 
+*Himalayas, 2024.*

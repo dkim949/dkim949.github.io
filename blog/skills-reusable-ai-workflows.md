@@ -7,7 +7,7 @@ title: "Skills: Building Reusable AI Workflows"
 
 > **Series**: AI Agents for Data Scientists (Part 4 of 4)
 
-In [Part 1](/blog/claude-code-intro), we explored Claude Code's capabilities. In [Part 2](/blog/mcp-model-context-protocol), we connected AI to your data infrastructure. Now, let's talk about **Skills**—reusable instruction sets that transform your AI assistant into a domain expert for your specific workflows.
+In [Part 1](/blog/claude-code-intro.html), we explored Claude Code's capabilities. In [Part 2](/blog/mcp-model-context-protocol.html), we connected AI to your data infrastructure. Now, let's talk about **Skills**—reusable instruction sets that transform your AI assistant into a domain expert for your specific workflows.
 
 ---
 

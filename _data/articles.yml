@@ -1,0 +1,12 @@
+- title: "Claude Code: Your AI Pair Programmer for Data Science"
+  summary: AI Agents for Data Scientists · Part 1
+  url: /blog/claude-code-intro.html
+- title: "MCP: Connecting AI to Your Data Science Tools"
+  summary: AI Agents for Data Scientists · Part 2
+  url: /blog/mcp-model-context-protocol.html
+- title: "SubAgents: Parallelizing Your AI-Assisted Analysis"
+  summary: AI Agents for Data Scientists · Part 3
+  url: /blog/subagents-parallel-exploration.html
+- title: "Skills: Building Reusable AI Workflows"
+  summary: AI Agents for Data Scientists · Part 4
+  url: /blog/skills-reusable-ai-workflows.html

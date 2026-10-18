@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: ko
 title: RAG와 LLM을 활용한 기업 지식 관리 시스템 PoC
 ---
 

@@ -7,7 +7,7 @@ title: "MCP: Connecting AI to Your Data Science Tools"
 
 > **Series**: AI Agents for Data Scientists (Part 2 of 4)
 
-In [Part 1](/blog/claude-code-intro), we explored how Claude Code can help you write better code. But what if your AI assistant could go beyond code generation and actually interact with your data infrastructure—querying databases, calling ML APIs, or reading files directly?
+In [Part 1](/blog/claude-code-intro.html), we explored how Claude Code can help you write better code. But what if your AI assistant could go beyond code generation and actually interact with your data infrastructure—querying databases, calling ML APIs, or reading files directly?
 
 Enter **Model Context Protocol (MCP)**, a standardized way to connect AI assistants to your tools and data sources.
 

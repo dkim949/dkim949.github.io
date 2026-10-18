@@ -1,83 +1,15 @@
 ---
-layout: page
-title: Works
+layout: default
+title: 만든 것
+nav: works
 permalink: /works/
 ---
-
-# Dongin Kim's Data Science Portfolio
-
-Welcome to my project showcase. Here you'll find a collection of my key data science projects, demonstrating my expertise in solving complex business problems through advanced analytics and machine learning. These projects highlight the skills I've developed over the years and showcase my ability to deliver impactful solutions across various domains.
-
-For a comprehensive overview of my technical skills and the tools I use:
-
-**[🚀 Explore My Interactive Skills Dashboard 🚀](https://dkim-skills.streamlit.app)**
-
-## Featured Projects
-
-1. **[Navigating Uncertainty: ETA Prediction at Scale](./works/delivery-time-estimation.md)**
-   - Built a large-scale ETA prediction system (2M+ daily deliveries) for food logistics, addressing high uncertainty from weather, traffic, and operational variability.
-   - Applied hybrid models (Neural Net + GBM), multi-task learning, and causal weather adjustment to improve robustness and accuracy.
-   - Key technologies: Python, Deep Learning, Statistical Modeling, Causal Analysis, MLOps
-
-2. **[Forecasting & Monitoring: Anomaly Detection in Time Series](./works/anomaly-detection.md)**
-   - Developed a real-time anomaly detection system for transactional time series, combining forecasting models with statistical tests and stream-based alerts.
-   - Built end-to-end MLOps pipelines with automated retraining, validation, and deployment for continuous monitoring.
-   - Key technologies: Python, Time Series Forecasting, Stream Processing, Statistical Modeling, MLOps
-
-3. **[FoodieNet: AI-powered Food Allergy Detection](./works/foodienet.md)**
-   - Developed an end-to-end system that combines computer vision and LLMs to detect ingredients and provide comprehensive allergen information from food images, improving ingredient detection accuracy especially for allergenic substances
-   - Key technologies: CLIP, Vision Transformers, Large Language Models, MLOps
-
-4. **[Comic Book Recommendation System for Mobile Webtoon Users](./works/webtoon-recommendation.md)**
-   - Built a hybrid recommendation system for a newly launched mobile webtoon service, addressing the cold start problem with content-based and collaborative filtering.
-   - Implemented real-time adaptation, A/B testing frameworks, and scalable architecture for growing user bases.
-   - Key technologies: Python, LightFM, Collaborative Filtering, Content-Based Filtering, A/B Testing
-
-5. **[RAG와 LLM을 활용한 기업 지식 관리 시스템 PoC](./works/rag-llm-poc.md)**
-   - AWS 기반 RAG 아키텍처를 설계하여 기업 문서 검색 및 LLM 기반 답변 생성 시스템 구축
-   - Hybrid Search, Re-ranking, Query Expansion 등 검색 품질 최적화 기법 적용
-   - Key technologies: AWS Bedrock, OpenSearch, RAG, LLM, Prompt Engineering
-
-## Technical Proficiency
-
-### Programming Languages
-![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/r-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![Scala](https://img.shields.io/badge/scala-DC322F?style=for-the-badge&logo=scala&logoColor=white)
-
-### ML & DL
-![scikit-learn](https://img.shields.io/badge/-sklearn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![statsmodels](https://img.shields.io/badge/-statsmodels-FF6F00?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-Tensorflow-FF6F00?style=for-the-badge&logo=Tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![LightGBM](https://img.shields.io/badge/-LightGBM-00A0E9?style=for-the-badge&logo=lightgbm&logoColor=white)
-![CatBoost](https://img.shields.io/badge/-CatBoost-00A0E9?style=for-the-badge&logo=catboost&logoColor=white)
-![XGBoost](https://img.shields.io/badge/-XGBoost-00A0E9?style=for-the-badge&logo=xgboost&logoColor=white)
-![ONNX](https://img.shields.io/badge/-ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
-
-### MLOps & Model Serving
-![MLflow](https://img.shields.io/badge/-mlflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![BentoML](https://img.shields.io/badge/-BentoML-000000?style=for-the-badge&logo=bentoml&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
-![Git](https://img.shields.io/badge/-GIT-654FF0?style=for-the-badge&logo=Github&logoColor=white)
-
-### Data Infrastructure & Query Engines
-![Apache Spark](https://img.shields.io/badge/-Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
-![Redash](https://img.shields.io/badge/-Redash-FF0000?style=for-the-badge&logo=redash&logoColor=white)
-![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![MySQL](https://img.shields.io/badge/-Mysql-4479A1?style=for-the-badge&logo=MySQL&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Amazon Redshift](https://img.shields.io/badge/-redshift-8C4FFF?style=for-the-badge&logo=amazon-redshift&logoColor=white)
-![Trino](https://img.shields.io/badge/-trino-DD00A1?style=for-the-badge&logo=trino&logoColor=white)
-
-### Visualization Tools
-![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/-Seaborn-11557C?style=for-the-badge&logo=python&logoColor=white)
-![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![ggplot2](https://img.shields.io/badge/-ggplot2-276DC3?style=for-the-badge&logo=r&logoColor=white)
-
-### Cloud Platforms
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![GCP](https://img.shields.io/badge/-GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white) 
+<section class="section-page">
+  <p class="eyebrow">SELECTED WORK</p>
+  <h1>그동안 만든 것.</h1>
+  <div class="archive-list">
+    {% for project in site.data.projects %}
+    <a class="project" href="{{ project.url | relative_url }}"><div><h3>{{ project.title | escape }}</h3><p>{{ project.summary | escape }}</p></div><span class="arrow" aria-hidden="true">↗</span></a>
+    {% endfor %}
+  </div>
+</section>
